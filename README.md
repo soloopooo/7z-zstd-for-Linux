@@ -1,7 +1,7 @@
 # 7-Zip AppImage for Linux
 7-Zip AppImage for Linux is a portable package of 7-Zip file archiver running on Wine.
 
-![7z GUI Interface](image.png)
+![7z GUI Interface](img/image.png)
 
 [English](#english) | [日本語](#japanese) | [中文](#chinese)
 
