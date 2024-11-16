@@ -80,16 +80,6 @@ Wine でパッケージ化された Windows 7z プログラムで、Linux 環境
 
 実行後、Download ディレクトリに test.7z ファイルが生成されます。
 
-### 設定
-
-プログラムは wine でパッケージ化されており、以下のコマンドで wine 環境を設定できます：
-
-* `wine`: Run wine
-* `winecfg`: Run winecfg
-* `wineserver`: Run wineserver
-* `wineboot`: Run wineboot
-* `winetricks`: Run winetricks
-
 ---
 
 ## Chinese
@@ -115,16 +105,6 @@ Wine でパッケージ化された Windows 7z プログラムで、Linux 環境
 ```
 
 运行后会Download下生成 test.7z 文件。
-
-### 配置
-
-程序是通过 wine 打包的，可以通过以下命令配置 wine 环境：
-
-* `wine`: Run wine
-* `winecfg`: Run winecfg
-* `wineserver`: Run wineserver
-* `wineboot`: Run wineboot
-* `winetricks`: Run winetricks
 
 ---
 
