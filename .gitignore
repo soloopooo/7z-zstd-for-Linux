@@ -1,0 +1,11 @@
+# 忽略根目录下的特定文件和文件夹
+#git rm -r --cached static/documents/*  # 从远程仓库里删除 apps/temp/ 目录
+#git commit -m "Remove"
+#git push
+
+.idea
+.svn
+__pycache__
+logs
+/*.AppImage
+/AppDir

@@ -1,0 +1,170 @@
+#!/bin/bash
+
+APP_NAME="7-Zip"
+APP_NAME_DIR="wine_${APP_NAME}"
+
+# Get the absolute path of the script's directory
+HERE="$(dirname "$(readlink -f "${0}")")"
+
+# Define the path of the executable file
+EXE="${HERE}/exe/7zFM.exe"
+echo "Executable file path: $EXE"
+
+print_usage() {
+    echo ""
+    echo "Usage:"
+    echo "  $0 [wine commands]     Run Wine commands"
+    echo "  $0 [7z commands]       Run 7z commands"
+    echo ""
+    echo "Wine commands:"
+    echo "  wine           Run wine"
+    echo "  winecfg        Run winecfg"
+    echo "  wineserver     Run wineserver"
+    echo "  wineboot       Run wineboot"
+    echo "  winetricks     Run winetricks"
+    echo ""
+    echo "7z commands:"
+    echo "  7z             Run 7z"
+    echo "  a              Add files to archive"
+    echo "  b              Benchmark"
+    echo "  d              Delete files from archive"
+    echo "  e              Extract files from archive"
+    echo "  h              Show help"
+    echo "  i              Show information about supported formats"
+    echo "  l              List files in archive"
+    echo "  rn             Rename files in archive"
+    echo "  t              Test integrity of archive"
+    echo "  u              Update files in archive"
+    echo "  x              eXtract files with full paths"
+
+    echo ""
+    echo "Copyright (c) 2024 Cheyan <iamcheyan@gmail.com> https://iamcheyan.com/"
+    echo "7-Zip is Copyright (c) 1999-2024 Igor Pavlov"
+    echo "Wine is Copyright (c) 1993-2024 Wine Developers"
+    
+}
+
+# Check if running through AppImage
+if [ -n "${APPIMAGE}" ]; then
+    echo "Running through AppImage"
+    echo "AppImage path: ${APPIMAGE}"
+    
+    # Create user application directory
+    USER_APPS_DIR="${HOME}/.local/share/applications"
+    USER_ICONS_DIR="${HOME}/.local/share/icons"
+    mkdir -p "${USER_APPS_DIR}"
+    mkdir -p "${USER_ICONS_DIR}"
+    
+    # Copy and modify the desktop file
+    DESKTOP_FILE="${HERE}/${APP_NAME}.desktop"
+    if [ ! -f "${USER_APPS_DIR}/${APP_NAME}.desktop" ]; then
+        if [ -f "${DESKTOP_FILE}" ]; then
+            # Modify the Exec line in the desktop file
+            sed "s|Exec=AppRun|Exec=${APPIMAGE}|g" "${DESKTOP_FILE}" > "${USER_APPS_DIR}/${APP_NAME}.desktop"
+            echo "Created application shortcut"
+        else
+            echo "Desktop file not found"
+        fi
+    else
+        echo "Shortcut already exists, skipping creation"
+    fi
+
+    # Copy the application icon
+    if [ ! -f "${USER_ICONS_DIR}/${APP_NAME}.png" ]; then
+        if [ -f "${HERE}/${APP_NAME}.png" ]; then
+            cp "${HERE}/${APP_NAME}.png" "${USER_ICONS_DIR}/"
+            echo "Copied application icon"
+        else
+            echo "Application icon not found"
+        fi
+    else
+        echo "Icon already exists, skipping copy"
+    fi
+    
+else
+    echo "Running through AppRun"
+fi
+
+# Define the path of the Wine AppImage
+if [ ! -f "${HERE}/wine-stable-latest.AppImage" ]; then
+    echo "Download wine-stable-latest.AppImage from https://github.com/mmtrt/WINE_AppImage/releases/download/continuous-stable/wine-stable_9.0-x86_64.AppImage..."
+    wget -c "https://github.com/mmtrt/WINE_AppImage/releases/download/continuous-stable/wine-stable_9.0-x86_64.AppImage" -O "${HERE}/wine-stable-latest.AppImage"
+    chmod +x "${HERE}/wine-stable-latest.AppImage"
+fi
+WINE_APPIMAGE="${HERE}/wine-stable-latest.AppImage"
+
+# Set the user directory of the Wine configuration directory
+USER_WINEPREFIX="${HOME}/.${APP_NAME_DIR}"
+
+echo "Container configuration path: ${HERE}/${APP_NAME_DIR}"
+
+# If the user directory does not have a configuration file, copy the default configuration
+if [ ! -d "${USER_WINEPREFIX}" ]; then
+    echo "No configuration file found in the user directory, copying the default configuration..."
+    mkdir -p "${USER_WINEPREFIX}"
+    cp -r "${HERE}/${APP_NAME_DIR}/"* "${USER_WINEPREFIX}/"
+fi
+
+# Set the custom Wine configuration directory
+export WINEPREFIX="${USER_WINEPREFIX}"
+
+# Improve compatibility with environment variables
+export WINEARCH=win64 
+export WINEDLLOVERRIDES="mscoree,mshtml=d"
+export DISPLAY=:0.0
+
+# Print the configuration directory information
+echo "Wine configuration directory: ${WINEPREFIX}"
+
+if [ $# -eq 0 ]; then
+    # If no arguments are provided, run the program directly
+    cd "${HERE}/exe"  # Switch to the exe directory
+    echo "Running with Wine: ${WINE_APPIMAGE}" "$EXE"
+    exec "${WINE_APPIMAGE}" "$EXE" 2>/dev/null
+else
+    # If arguments are provided, pass them to Wine
+    if [ -f "$1" ]; then
+        # If the first argument is a file path, open the file
+        FILEPATH="$1"
+        DIRPATH="$(dirname "${FILEPATH}")"
+        FILENAME="$(basename "${FILEPATH}")"
+        cd "${DIRPATH}"
+        exec "${WINE_APPIMAGE}" "${EXE}" "${FILENAME}" 2>/dev/null
+    else
+        # If the first argument is not a file path, pass it to Wine
+        case "$1" in
+            wine|winecfg|wineserver|wineboot|winetricks)
+                echo "Running Wine command: ${WINE_APPIMAGE} $@"
+                shift
+                exec "${WINE_APPIMAGE}" "$@" 2>/dev/null
+                ;;
+            7z|a|b|d|e|h|i|l|rn|t|u|x)
+                # If the first argument is a 7z command, pass it to 7z
+                # Convert Linux paths to Windows paths
+                COMMAND="$1"  # Save the command
+                WIN_PATH1=$(echo "${2}" | sed 's/\/var\//z:\\var\\/' | sed 's/\//\\/g')
+                WIN_PATH2=$(echo "${3}" | sed 's/\/var\//z:\\var\\/' | sed 's/\//\\/g')
+                echo "win path 1: ${WIN_PATH1}"
+                echo "win path 2: ${WIN_PATH2}"
+
+                # Set WINEPREFIX
+                export WINEPREFIX="${WINE_PREFIX}"
+                
+                # Use WINE_APPIMAGE to run the command
+                echo "Running 7z command: ${WINE_APPIMAGE} ${HERE}/exe/7z.exe ${COMMAND} ${WIN_PATH1} ${WIN_PATH2}"
+                
+                cd "${HERE}"  # Switch to the program directory
+                "${WINE_APPIMAGE}" "${HERE}/exe/7z.exe" "${COMMAND}" "${WIN_PATH1}" "${WIN_PATH2}"
+                ;;
+            help)
+                print_usage
+                exit 0
+                ;;
+            *)
+                echo "Error: Invalid argument '$1'. Please check the usage."
+                print_usage
+                exit 1
+                ;;
+        esac
+    fi
+fi

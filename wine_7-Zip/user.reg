@@ -1,0 +1,1565 @@
+WINE REGISTRY Version 2
+;; All keys relative to REGISTRY\\User\\S-1-5-21-0-0-0-1000
+
+#arch=win64
+
+[AppEvents\\Schemes\\Apps\\Explorer\\Navigating\\.Current] 1731769330
+#time=1db383882bdda92
+@=""
+
+[Control Panel\\Accessibility\\AudioDescription] 1731769327
+#time=1db3838812d1882
+"Locale"=dword:00000000
+"On"="0"
+
+[Control Panel\\Accessibility\\Blind Access] 1731769327
+#time=1db3838812d1378
+"On"="0"
+
+[Control Panel\\Accessibility\\Keyboard Preference] 1731769327
+#time=1db3838812d0cac
+"On"="1"
+
+[Control Panel\\Accessibility\\ShowSounds] 1731769327
+#time=1db3838812d14fe
+"On"="0"
+
+[Control Panel\\Colors] 1731769330
+#time=1db383882dfbcac
+"ActiveBorder"="255 255 255"
+"ActiveTitle"="50 150 250"
+"AppWorkSpace"="128 128 128"
+"Background"="37 111 149"
+"ButtonAlternateFace"="255 255 255"
+"ButtonDkShadow"="106 106 106"
+"ButtonFace"="245 245 245"
+"ButtonHilight"="255 255 255"
+"ButtonLight"="227 227 227"
+"ButtonShadow"="166 166 166"
+"ButtonText"="0 0 0"
+"GradientActiveTitle"="50 150 250"
+"GradientInactiveTitle"="128 128 128"
+"GrayText"="166 166 166"
+"Hilight"="48 150 250"
+"HilightText"="255 255 255"
+"HotTrackingColor"="224 224 224"
+"InactiveBorder"="255 255 255"
+"InactiveTitle"="128 128 128"
+"InactiveTitleText"="200 200 200"
+"InfoText"="0 0 0"
+"InfoWindow"="255 255 255"
+"Menu"="255 255 255"
+"MenuBar"="255 255 255"
+"MenuHilight"="48 150 250"
+"MenuText"="0 0 0"
+"Scrollbar"="255 255 255"
+"TitleText"="0 0 0"
+"Window"="255 255 255"
+"WindowFrame"="158 158 158"
+"WindowText"="0 0 0"
+
+[Control Panel\\Desktop] 1731769620
+#time=1db383930117096
+"ActiveWndTrackTimeout"=dword:00000000
+"BlockSendInputResets"="0"
+"CaretWidth"=dword:00000001
+"ClickLockTime"=dword:000004b0
+"DoubleClickHeight"="4"
+"DoubleClickWidth"="4"
+"DragFullWindows"="0"
+"DragHeight"="4"
+"DragWidth"="4"
+"FocusBorderHeight"=dword:00000001
+"FocusBorderWidth"=dword:00000001
+"FontSmoothing"="2"
+"FontSmoothingGamma"=dword:00000000
+"FontSmoothingOrientation"=dword:00000001
+"FontSmoothingType"=dword:00000001
+"ForegroundFlashCount"=dword:00000003
+"ForegroundLockTimeout"=dword:00000000
+"IconTitleWrap"="1"
+"LogPixels"=dword:000000f0
+"LowPowerActive"="0"
+"MenuShowDelay"="400"
+"UserPreferencesMask"=hex:30,00,02,80,12,00,00,00
+"Wallpaper"=""
+"WheelScrollChars"="3"
+"WheelScrollLines"="3"
+
+[Control Panel\\Desktop\\WindowMetrics] 1731769330
+#time=1db383882dfc468
+"BorderWidth"="1"
+"CaptionFont"=hex:0a,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,\
+  00,00,00,01,00,00,00,00,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"CaptionHeight"="25"
+"CaptionWidth"="18"
+"IconFont"=hex:08,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,00,\
+  00,00,01,00,00,00,00,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"IconSpacing"="-1125"
+"IconTitleWrap"="1"
+"IconVerticalSpacing"="-1125"
+"MenuFont"=hex:08,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,00,\
+  00,00,01,00,00,00,00,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"MenuHeight"="18"
+"MenuWidth"="18"
+"MessageFont"=hex:08,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,\
+  00,00,00,01,00,00,00,00,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"PaddedBorderWidth"="0"
+"ScrollHeight"="17"
+"ScrollWidth"="17"
+"SmCaptionFont"=hex:08,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,\
+  00,00,00,00,01,00,00,00,00,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"SmCaptionHeight"="17"
+"SmCaptionWidth"="17"
+"StatusFont"=hex:08,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,\
+  00,00,00,01,00,00,00,00,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[Control Panel\\International] 1731769327
+#time=1db3838811e3826
+"iCalendarType"="1"
+"iCountry"="81"
+"iCurrDigits"="0"
+"iCurrency"="0"
+"iDate"="2"
+"iDigits"="2"
+"iFirstDayOfWeek"="6"
+"iFirstWeekOfYear"="0"
+"iLZero"="1"
+"iMeasure"="0"
+"iNegCurr"="0"
+"iNegNumber"="1"
+"iPaperSize"="9"
+"iTime"="1"
+"iTimePrefix"="0"
+"iTLZero"="0"
+"Locale"="00000411"
+"LocaleName"="ja-JP"
+"NumShape"="1"
+"s1159"="\x5348\x524d"
+"s2359"="\x5348\x5f8c"
+"sCountry"="Japan"
+"sCurrency"="\xffe5"
+"sDate"="/"
+"sDecimal"="."
+"sGrouping"="3;0"
+"sLanguage"="JPN"
+"sList"=","
+"sLongDate"="yyyy\x5e74M\x6708d\x65e5dddd"
+"sMonDecimalSep"="."
+"sMonGrouping"="3;0"
+"sMonThousandSep"=","
+"sNativeDigits"="0123456789"
+"sNegativeSign"="-"
+"sPositiveSign"=""
+"sShortDate"="yyyy/M/d"
+"sShortTime"="H:mm"
+"sThousand"=","
+"sTime"=":"
+"sTimeFormat"="H:mm:ss"
+"sYearMonth"="yyyy\x5e74M\x6708"
+
+[Control Panel\\International\\Geo] 1731769327
+#time=1db3838811e389e
+"Name"="JP"
+"Nation"="122"
+
+[Control Panel\\International\\\xd83c\xdf0e\xd83c\xdf0f\xd83c\xdf0d] 1731769327
+#time=1db3838811e333a
+"Currencies"="JPY"
+
+[Control Panel\\Keyboard] 1731769327
+#time=1db3838812d0d10
+"KeyboardDelay"="1"
+"KeyboardSpeed"="31"
+
+[Control Panel\\Mouse] 1731769327
+#time=1db3838812d163e
+"ActiveWindowTracking"=dword:00000000
+"DoubleClickHeight"="4"
+"DoubleClickSpeed"="500"
+"DoubleClickWidth"="4"
+"MouseHoverHeight"="4"
+"MouseHoverTime"="400"
+"MouseHoverWidth"="4"
+"MouseSensitivity"="10"
+"MouseSpeed"="1"
+"MouseThreshold1"="6"
+"MouseThreshold2"="10"
+"SnapToDefaultButton"="0"
+"SwapMouseButtons"="0"
+
+[Control Panel\\Sound] 1731769327
+#time=1db3838812cfff0
+"Beep"="Yes"
+
+[Environment] 1731769328
+#time=1db383882098236
+"TEMP"="C:\\users\\tetsuya\\Temp"
+"TMP"="C:\\users\\tetsuya\\Temp"
+
+[Keyboard Layout\\Preload] 1731769327
+#time=1db3838812cfae6
+"1"="E0010411"
+
+[Software\\7-Zip] 1731770136
+#time=1db383a63b032d8
+"Lang"="-"
+"LargePages"=dword:00000001
+
+[Software\\7-Zip\\FM] 1731776805
+#time=1db3849ea972662
+"AlternativeSelection"=dword:00000000
+"FlatViewArc0"=dword:00000000
+"FlatViewArc1"=dword:00000000
+"FolderHistory"=hex:5a,00,3a,00,5c,00,76,00,61,00,72,00,5c,00,68,00,6f,00,6d,\
+  00,65,00,5c,00,74,00,65,00,74,00,73,00,75,00,79,00,61,00,5c,00,44,00,6f,00,\
+  77,00,6e,00,6c,00,6f,00,61,00,64,00,5c,00,63,00,68,00,72,00,6f,00,6d,00,65,\
+  00,2d,00,77,00,69,00,6e,00,36,00,34,00,2e,00,7a,00,69,00,70,00,5c,00,63,00,\
+  68,00,72,00,6f,00,6d,00,65,00,2d,00,77,00,69,00,6e,00,36,00,34,00,5c,00,00,\
+  00,5a,00,3a,00,5c,00,76,00,61,00,72,00,5c,00,68,00,6f,00,6d,00,65,00,5c,00,\
+  74,00,65,00,74,00,73,00,75,00,79,00,61,00,5c,00,44,00,6f,00,77,00,6e,00,6c,\
+  00,6f,00,61,00,64,00,5c,00,63,00,68,00,72,00,6f,00,6d,00,65,00,2d,00,77,00,\
+  69,00,6e,00,36,00,34,00,2e,00,7a,00,69,00,70,00,5c,00,00,00,5a,00,3a,00,5c,\
+  00,76,00,61,00,72,00,5c,00,68,00,6f,00,6d,00,65,00,5c,00,74,00,65,00,74,00,\
+  73,00,75,00,79,00,61,00,5c,00,44,00,6f,00,77,00,6e,00,6c,00,6f,00,61,00,64,\
+  00,5c,00,6d,00,75,00,69,00,2e,00,37,00,7a,00,5c,00,6d,00,75,00,69,00,5c,00,\
+  00,00,5a,00,3a,00,5c,00,76,00,61,00,72,00,5c,00,68,00,6f,00,6d,00,65,00,5c,\
+  00,74,00,65,00,74,00,73,00,75,00,79,00,61,00,5c,00,44,00,6f,00,77,00,6e,00,\
+  6c,00,6f,00,61,00,64,00,5c,00,6d,00,75,00,69,00,2e,00,37,00,7a,00,5c,00,00,\
+  00,5a,00,3a,00,5c,00,76,00,61,00,72,00,5c,00,68,00,6f,00,6d,00,65,00,5c,00,\
+  74,00,65,00,74,00,73,00,75,00,79,00,61,00,5c,00,44,00,6f,00,77,00,6e,00,6c,\
+  00,6f,00,61,00,64,00,5c,00,61,00,64,00,77,00,2d,00,67,00,74,00,6b,00,33,00,\
+  76,00,35,00,2e,00,35,00,2e,00,74,00,61,00,72,00,2e,00,78,00,7a,00,5c,00,61,\
+  00,64,00,77,00,2d,00,67,00,74,00,6b,00,33,00,76,00,35,00,2e,00,35,00,2e,00,\
+  74,00,61,00,72,00,5c,00,61,00,64,00,77,00,2d,00,67,00,74,00,6b,00,33,00,5c,\
+  00,67,00,74,00,6b,00,2d,00,34,00,2e,00,30,00,5c,00,00,00,5a,00,3a,00,5c,00,\
+  76,00,61,00,72,00,5c,00,68,00,6f,00,6d,00,65,00,5c,00,74,00,65,00,74,00,73,\
+  00,75,00,79,00,61,00,5c,00,44,00,6f,00,77,00,6e,00,6c,00,6f,00,61,00,64,00,\
+  5c,00,61,00,64,00,77,00,2d,00,67,00,74,00,6b,00,33,00,76,00,35,00,2e,00,35,\
+  00,2e,00,74,00,61,00,72,00,2e,00,78,00,7a,00,5c,00,61,00,64,00,77,00,2d,00,\
+  67,00,74,00,6b,00,33,00,76,00,35,00,2e,00,35,00,2e,00,74,00,61,00,72,00,5c,\
+  00,61,00,64,00,77,00,2d,00,67,00,74,00,6b,00,33,00,5c,00,00,00,5a,00,3a,00,\
+  5c,00,76,00,61,00,72,00,5c,00,68,00,6f,00,6d,00,65,00,5c,00,74,00,65,00,74,\
+  00,73,00,75,00,79,00,61,00,5c,00,44,00,6f,00,77,00,6e,00,6c,00,6f,00,61,00,\
+  64,00,5c,00,61,00,64,00,77,00,2d,00,67,00,74,00,6b,00,33,00,76,00,35,00,2e,\
+  00,35,00,2e,00,74,00,61,00,72,00,2e,00,78,00,7a,00,5c,00,61,00,64,00,77,00,\
+  2d,00,67,00,74,00,6b,00,33,00,76,00,35,00,2e,00,35,00,2e,00,74,00,61,00,72,\
+  00,5c,00,00,00,5a,00,3a,00,5c,00,76,00,61,00,72,00,5c,00,68,00,6f,00,6d,00,\
+  65,00,5c,00,74,00,65,00,74,00,73,00,75,00,79,00,61,00,5c,00,44,00,6f,00,77,\
+  00,6e,00,6c,00,6f,00,61,00,64,00,5c,00,61,00,64,00,77,00,2d,00,67,00,74,00,\
+  6b,00,33,00,76,00,35,00,2e,00,35,00,2e,00,74,00,61,00,72,00,2e,00,78,00,7a,\
+  00,5c,00,00,00,5a,00,3a,00,5c,00,76,00,61,00,72,00,5c,00,68,00,6f,00,6d,00,\
+  65,00,5c,00,74,00,65,00,74,00,73,00,75,00,79,00,61,00,5c,00,44,00,6f,00,77,\
+  00,6e,00,6c,00,6f,00,61,00,64,00,5c,00,52,00,65,00,66,00,65,00,72,00,65,00,\
+  6e,00,63,00,65,00,2e,00,7a,00,69,00,70,00,5c,00,00,00,5a,00,3a,00,5c,00,76,\
+  00,61,00,72,00,5c,00,68,00,6f,00,6d,00,65,00,5c,00,74,00,65,00,74,00,73,00,\
+  75,00,79,00,61,00,5c,00,44,00,6f,00,77,00,6e,00,6c,00,6f,00,61,00,64,00,5c,\
+  00,55,00,6d,00,69,00,2d,00,4f,00,43,00,52,00,5f,00,4c,00,69,00,6e,00,75,00,\
+  78,00,5f,00,50,00,61,00,64,00,64,00,6c,00,65,00,5f,00,32,00,2e,00,31,00,2e,\
+  00,34,00,2e,00,74,00,61,00,72,00,2e,00,78,00,7a,00,5c,00,00,00,5a,00,3a,00,\
+  5c,00,76,00,61,00,72,00,5c,00,68,00,6f,00,6d,00,65,00,5c,00,74,00,65,00,74,\
+  00,73,00,75,00,79,00,61,00,5c,00,44,00,6f,00,77,00,6e,00,6c,00,6f,00,61,00,\
+  64,00,5c,00,00,00,5a,00,3a,00,5c,00,76,00,61,00,72,00,5c,00,68,00,6f,00,6d,\
+  00,65,00,5c,00,74,00,65,00,74,00,73,00,75,00,79,00,61,00,5c,00,44,00,6f,00,\
+  77,00,6e,00,6c,00,6f,00,61,00,64,00,5c,00,57,00,69,00,6e,00,64,00,73,00,75,\
+  00,72,00,66,00,2d,00,6c,00,69,00,6e,00,75,00,78,00,2d,00,78,00,36,00,34,00,\
+  2d,00,31,00,2e,00,30,00,2e,00,32,00,2e,00,74,00,61,00,72,00,2e,00,67,00,7a,\
+  00,5c,00,57,00,69,00,6e,00,64,00,73,00,75,00,72,00,66,00,2d,00,6c,00,69,00,\
+  6e,00,75,00,78,00,2d,00,78,00,36,00,34,00,2d,00,31,00,2e,00,30,00,2e,00,32,\
+  00,2e,00,74,00,61,00,72,00,5c,00,57,00,69,00,6e,00,64,00,73,00,75,00,72,00,\
+  66,00,5c,00,00,00,5a,00,3a,00,5c,00,76,00,61,00,72,00,5c,00,68,00,6f,00,6d,\
+  00,65,00,5c,00,74,00,65,00,74,00,73,00,75,00,79,00,61,00,5c,00,44,00,6f,00,\
+  77,00,6e,00,6c,00,6f,00,61,00,64,00,5c,00,57,00,69,00,6e,00,64,00,73,00,75,\
+  00,72,00,66,00,2d,00,6c,00,69,00,6e,00,75,00,78,00,2d,00,78,00,36,00,34,00,\
+  2d,00,31,00,2e,00,30,00,2e,00,32,00,2e,00,74,00,61,00,72,00,2e,00,67,00,7a,\
+  00,5c,00,57,00,69,00,6e,00,64,00,73,00,75,00,72,00,66,00,2d,00,6c,00,69,00,\
+  6e,00,75,00,78,00,2d,00,78,00,36,00,34,00,2d,00,31,00,2e,00,30,00,2e,00,32,\
+  00,2e,00,74,00,61,00,72,00,5c,00,00,00,5a,00,3a,00,5c,00,76,00,61,00,72,00,\
+  5c,00,68,00,6f,00,6d,00,65,00,5c,00,74,00,65,00,74,00,73,00,75,00,79,00,61,\
+  00,5c,00,44,00,6f,00,77,00,6e,00,6c,00,6f,00,61,00,64,00,5c,00,57,00,69,00,\
+  6e,00,64,00,73,00,75,00,72,00,66,00,2d,00,6c,00,69,00,6e,00,75,00,78,00,2d,\
+  00,78,00,36,00,34,00,2d,00,31,00,2e,00,30,00,2e,00,32,00,2e,00,74,00,61,00,\
+  72,00,2e,00,67,00,7a,00,5c,00,00,00,5a,00,3a,00,5c,00,76,00,61,00,72,00,5c,\
+  00,68,00,6f,00,6d,00,65,00,5c,00,74,00,65,00,74,00,73,00,75,00,79,00,61,00,\
+  5c,00,44,00,6f,00,77,00,6e,00,6c,00,6f,00,61,00,64,00,5c,00,72,00,61,00,72,\
+  00,6c,00,6e,00,67,00,5c,00,63,00,65,00,73,00,68,00,69,00,2e,00,37,00,7a,00,\
+  5c,00,87,65,69,72,5c,00,00,00,5a,00,3a,00,5c,00,76,00,61,00,72,00,5c,00,68,\
+  00,6f,00,6d,00,65,00,5c,00,74,00,65,00,74,00,73,00,75,00,79,00,61,00,5c,00,\
+  44,00,6f,00,77,00,6e,00,6c,00,6f,00,61,00,64,00,5c,00,72,00,61,00,72,00,6c,\
+  00,6e,00,67,00,5c,00,63,00,65,00,73,00,68,00,69,00,2e,00,37,00,7a,00,5c,00,\
+  00,00,5a,00,3a,00,5c,00,76,00,61,00,72,00,5c,00,68,00,6f,00,6d,00,65,00,5c,\
+  00,74,00,65,00,74,00,73,00,75,00,79,00,61,00,5c,00,44,00,6f,00,77,00,6e,00,\
+  6c,00,6f,00,61,00,64,00,5c,00,72,00,61,00,72,00,6c,00,6e,00,67,00,5c,00,00,\
+  00,5a,00,3a,00,5c,00,76,00,61,00,72,00,5c,00,68,00,6f,00,6d,00,65,00,5c,00,\
+  74,00,65,00,74,00,73,00,75,00,79,00,61,00,5c,00,44,00,6f,00,77,00,6e,00,6c,\
+  00,6f,00,61,00,64,00,5c,00,72,00,61,00,72,00,6c,00,6e,00,67,00,5c,00,63,00,\
+  65,00,73,00,68,00,69,00,2e,00,37,00,7a,00,5c,00,87,65,69,72,5c,00,48,00,65,\
+  00,6c,00,70,00,5c,00,00,00,5a,00,3a,00,5c,00,76,00,61,00,72,00,5c,00,68,00,\
+  6f,00,6d,00,65,00,5c,00,74,00,65,00,74,00,73,00,75,00,79,00,61,00,5c,00,44,\
+  00,6f,00,77,00,6e,00,6c,00,6f,00,61,00,64,00,5c,00,72,00,61,00,72,00,6c,00,\
+  6e,00,67,00,2e,00,72,00,61,00,72,00,5c,00,54,00,6f,00,6f,00,6c,00,73,00,5c,\
+  00,00,00,5a,00,3a,00,5c,00,76,00,61,00,72,00,5c,00,68,00,6f,00,6d,00,65,00,\
+  5c,00,74,00,65,00,74,00,73,00,75,00,79,00,61,00,5c,00,44,00,6f,00,77,00,6e,\
+  00,6c,00,6f,00,61,00,64,00,5c,00,72,00,61,00,72,00,6c,00,6e,00,67,00,2e,00,\
+  72,00,61,00,72,00,5c,00,00,00,5a,00,3a,00,5c,00,76,00,61,00,72,00,5c,00,68,\
+  00,6f,00,6d,00,65,00,5c,00,74,00,65,00,74,00,73,00,75,00,79,00,61,00,5c,00,\
+  44,00,6f,00,77,00,6e,00,6c,00,6f,00,61,00,64,00,5c,00,41,00,69,00,64,00,65,\
+  00,2d,00,6c,00,69,00,6e,00,75,00,78,00,2d,00,78,00,36,00,34,00,2d,00,31,00,\
+  2e,00,39,00,34,00,2e,00,32,00,2e,00,32,00,34,00,33,00,31,00,37,00,2e,00,74,\
+  00,61,00,72,00,2e,00,67,00,7a,00,5c,00,41,00,69,00,64,00,65,00,2d,00,6c,00,\
+  69,00,6e,00,75,00,78,00,2d,00,78,00,36,00,34,00,2d,00,31,00,2e,00,39,00,34,\
+  00,2e,00,32,00,2e,00,32,00,34,00,33,00,31,00,37,00,2e,00,74,00,61,00,72,00,\
+  5c,00,2e,00,5c,00,00,00,5a,00,3a,00,5c,00,76,00,61,00,72,00,5c,00,68,00,6f,\
+  00,6d,00,65,00,5c,00,74,00,65,00,74,00,73,00,75,00,79,00,61,00,5c,00,44,00,\
+  6f,00,77,00,6e,00,6c,00,6f,00,61,00,64,00,5c,00,41,00,69,00,64,00,65,00,2d,\
+  00,6c,00,69,00,6e,00,75,00,78,00,2d,00,78,00,36,00,34,00,2d,00,31,00,2e,00,\
+  39,00,34,00,2e,00,32,00,2e,00,32,00,34,00,33,00,31,00,37,00,2e,00,74,00,61,\
+  00,72,00,2e,00,67,00,7a,00,5c,00,41,00,69,00,64,00,65,00,2d,00,6c,00,69,00,\
+  6e,00,75,00,78,00,2d,00,78,00,36,00,34,00,2d,00,31,00,2e,00,39,00,34,00,2e,\
+  00,32,00,2e,00,32,00,34,00,33,00,31,00,37,00,2e,00,74,00,61,00,72,00,5c,00,\
+  00,00,5a,00,3a,00,5c,00,76,00,61,00,72,00,5c,00,68,00,6f,00,6d,00,65,00,5c,\
+  00,74,00,65,00,74,00,73,00,75,00,79,00,61,00,5c,00,44,00,6f,00,77,00,6e,00,\
+  6c,00,6f,00,61,00,64,00,5c,00,41,00,69,00,64,00,65,00,2d,00,6c,00,69,00,6e,\
+  00,75,00,78,00,2d,00,78,00,36,00,34,00,2d,00,31,00,2e,00,39,00,34,00,2e,00,\
+  32,00,2e,00,32,00,34,00,33,00,31,00,37,00,2e,00,74,00,61,00,72,00,2e,00,67,\
+  00,7a,00,5c,00,00,00,5a,00,3a,00,5c,00,76,00,61,00,72,00,5c,00,68,00,6f,00,\
+  6d,00,65,00,5c,00,74,00,65,00,74,00,73,00,75,00,79,00,61,00,5c,00,00,00,5a,\
+  00,3a,00,5c,00,76,00,61,00,72,00,5c,00,68,00,6f,00,6d,00,65,00,5c,00,74,00,\
+  65,00,74,00,73,00,75,00,79,00,61,00,5c,00,44,00,6f,00,77,00,6e,00,6c,00,6f,\
+  00,61,00,64,00,5c,00,45,00,49,00,20,4f,47,59,32,00,20,00,76,60,54,9b,84,76,\
+  7b,5e,71,5f,20,00,2c,7b,8c,4e,48,72,2e,00,72,00,61,00,72,00,5c,00,00,00,5a,\
+  00,3a,00,5c,00,76,00,61,00,72,00,5c,00,68,00,6f,00,6d,00,65,00,5c,00,74,00,\
+  65,00,74,00,73,00,75,00,79,00,61,00,5c,00,44,00,6f,00,77,00,6e,00,6c,00,6f,\
+  00,61,00,64,00,5c,00,45,00,49,00,20,4f,47,59,32,00,20,00,76,60,54,9b,84,76,\
+  7b,5e,71,5f,20,00,2c,7b,8c,4e,48,72,2e,00,72,00,61,00,72,00,5c,00,6d,00,75,\
+  00,64,00,33,00,5c,00,00,00,00,00,43,00,3a,00,5c,00,75,00,73,00,65,00,72,00,\
+  73,00,5c,00,74,00,65,00,74,00,73,00,75,00,79,00,61,00,5c,00,44,00,65,00,73,\
+  00,6b,00,74,00,6f,00,70,00,5c,00,00,00,43,00,3a,00,5c,00,75,00,73,00,65,00,\
+  72,00,73,00,5c,00,74,00,65,00,74,00,73,00,75,00,79,00,61,00,5c,00,44,00,65,\
+  00,73,00,6b,00,74,00,6f,00,70,00,5c,00,88,59,88,59,84,76,52,97,25,66,1f,67,\
+  5c,00,00,00,43,00,3a,00,5c,00,75,00,73,00,65,00,72,00,73,00,5c,00,74,00,65,\
+  00,74,00,73,00,75,00,79,00,61,00,5c,00,44,00,65,00,73,00,6b,00,74,00,6f,00,\
+  70,00,5c,00,30,52,32,00,30,00,e8,90,06,52,5c,00,00,00,43,00,3a,00,5c,00,75,\
+  00,73,00,65,00,72,00,73,00,5c,00,74,00,65,00,74,00,73,00,75,00,79,00,61,00,\
+  5c,00,00,00,43,00,3a,00,5c,00,75,00,73,00,65,00,72,00,73,00,5c,00,74,00,65,\
+  00,74,00,73,00,75,00,79,00,61,00,5c,00,44,00,6f,00,63,00,75,00,6d,00,65,00,\
+  6e,00,74,00,73,00,5c,00,00,00
+"FolderShortcuts"=hex:
+"FullRow"=dword:00000001
+"ListMode"=dword:00000303
+"PanelPath0"="Z:\\var\\home\\tetsuya\\Download\\"
+"PanelPath1"=""
+"Panels"=hex:01,00,00,00,00,00,00,00,d7,03,00,00
+"Position"=hex:ae,03,00,00,84,01,00,00,6c,0b,00,00,f2,05,00,00,00,00,00,00
+"ShowDots"=dword:00000001
+"ShowGrid"=dword:00000001
+"ShowRealFileIcons"=dword:00000000
+"ShowSystemMenu"=dword:00000000
+"SingleClick"=dword:00000000
+"Toolbars"=dword:0000000f
+
+[Software\\7-Zip\\FM\\Columns] 1731775343
+#time=1db3846830b4706
+"7-Zip.7z"=hex:01,00,00,00,04,00,00,00,01,00,00,00,04,00,00,00,01,00,00,00,1c,\
+  01,00,00,07,00,00,00,01,00,00,00,64,00,00,00,08,00,00,00,01,00,00,00,64,00,\
+  00,00,0c,00,00,00,01,00,00,00,64,00,00,00,09,00,00,00,01,00,00,00,64,00,00,\
+  00,13,00,00,00,01,00,00,00,64,00,00,00,0f,00,00,00,01,00,00,00,64,00,00,00,\
+  16,00,00,00,01,00,00,00,64,00,00,00,1b,00,00,00,01,00,00,00,64,00,00,00,1f,\
+  00,00,00,01,00,00,00,64,00,00,00,20,00,00,00,01,00,00,00,64,00,00,00
+"7-Zip.gzip"=hex:01,00,00,00,04,00,00,00,01,00,00,00,04,00,00,00,01,00,00,00,\
+  ac,02,00,00,07,00,00,00,01,00,00,00,64,00,00,00,08,00,00,00,01,00,00,00,64,\
+  00,00,00,0c,00,00,00,01,00,00,00,64,00,00,00,17,00,00,00,01,00,00,00,64,00,\
+  00,00,13,00,00,00,01,00,00,00,64,00,00,00,1f,00,00,00,01,00,00,00,64,00,00,\
+  00,20,00,00,00,01,00,00,00,64,00,00,00
+"7-Zip.Rar5"=hex:01,00,00,00,3e,00,00,00,00,00,00,00,04,00,00,00,01,00,00,00,\
+  bd,02,00,00,07,00,00,00,01,00,00,00,77,01,00,00,08,00,00,00,01,00,00,00,23,\
+  02,00,00,0c,00,00,00,01,00,00,00,7e,01,00,00,0a,00,00,00,01,00,00,00,64,00,\
+  00,00,0b,00,00,00,01,00,00,00,64,00,00,00,09,00,00,00,01,00,00,00,64,00,00,\
+  00,3f,00,00,00,01,00,00,00,64,00,00,00,0f,00,00,00,01,00,00,00,64,00,00,00,\
+  0d,00,00,00,01,00,00,00,64,00,00,00,10,00,00,00,01,00,00,00,64,00,00,00,11,\
+  00,00,00,01,00,00,00,64,00,00,00,13,00,00,00,01,00,00,00,64,00,00,00,17,00,\
+  00,00,01,00,00,00,64,00,00,00,16,00,00,00,01,00,00,00,64,00,00,00,2f,00,00,\
+  00,01,00,00,00,64,00,00,00,36,00,00,00,01,00,00,00,64,00,00,00,5a,00,00,00,\
+  01,00,00,00,64,00,00,00,5f,00,00,00,01,00,00,00,64,00,00,00,50,00,00,00,01,\
+  00,00,00,64,00,00,00,1f,00,00,00,01,00,00,00,64,00,00,00,20,00,00,00,01,00,\
+  00,00,64,00,00,00,2e,00,00,00,01,00,00,00,64,00,00,00,3e,00,00,00,01,00,00,\
+  00,64,00,00,00
+"7-Zip.tar"=hex:01,00,00,00,04,00,00,00,01,00,00,00,04,00,00,00,01,00,00,00,6f,\
+  02,00,00,07,00,00,00,01,00,00,00,64,00,00,00,08,00,00,00,01,00,00,00,64,00,\
+  00,00,0c,00,00,00,01,00,00,00,64,00,00,00,0a,00,00,00,01,00,00,00,64,00,00,\
+  00,0b,00,00,00,01,00,00,00,64,00,00,00,35,00,00,00,01,00,00,00,64,00,00,00,\
+  19,00,00,00,01,00,00,00,64,00,00,00,1a,00,00,00,01,00,00,00,64,00,00,00,63,\
+  00,00,00,01,00,00,00,64,00,00,00,64,00,00,00,01,00,00,00,64,00,00,00,36,00,\
+  00,00,01,00,00,00,64,00,00,00,5a,00,00,00,01,00,00,00,64,00,00,00,2f,00,00,\
+  00,01,00,00,00,64,00,00,00,1c,00,00,00,01,00,00,00,64,00,00,00,65,00,00,00,\
+  01,00,00,00,64,00,00,00,66,00,00,00,01,00,00,00,64,00,00,00,1f,00,00,00,01,\
+  00,00,00,64,00,00,00,20,00,00,00,01,00,00,00,64,00,00,00
+"7-Zip.xz"=hex:01,00,00,00,04,00,00,00,01,00,00,00,04,00,00,00,01,00,00,00,a0,\
+  00,00,00,07,00,00,00,01,00,00,00,64,00,00,00,08,00,00,00,01,00,00,00,64,00,\
+  00,00,16,00,00,00,01,00,00,00,64,00,00,00,1f,00,00,00,01,00,00,00,64,00,00,\
+  00,20,00,00,00,01,00,00,00,64,00,00,00
+"7-Zip.zip"=hex:01,00,00,00,04,00,00,00,01,00,00,00,04,00,00,00,01,00,00,00,ff,\
+  01,00,00,07,00,00,00,01,00,00,00,64,00,00,00,08,00,00,00,01,00,00,00,64,00,\
+  00,00,0c,00,00,00,01,00,00,00,64,00,00,00,0a,00,00,00,01,00,00,00,64,00,00,\
+  00,0b,00,00,00,01,00,00,00,64,00,00,00,09,00,00,00,01,00,00,00,64,00,00,00,\
+  0f,00,00,00,01,00,00,00,64,00,00,00,1c,00,00,00,01,00,00,00,64,00,00,00,13,\
+  00,00,00,01,00,00,00,64,00,00,00,16,00,00,00,01,00,00,00,64,00,00,00,2f,00,\
+  00,00,01,00,00,00,64,00,00,00,17,00,00,00,01,00,00,00,64,00,00,00,21,00,00,\
+  00,01,00,00,00,64,00,00,00,50,00,00,00,01,00,00,00,64,00,00,00,24,00,00,00,\
+  01,00,00,00,64,00,00,00,1f,00,00,00,01,00,00,00,64,00,00,00,20,00,00,00,01,\
+  00,00,00,64,00,00,00
+"FSFolder"=hex:01,00,00,00,04,00,00,00,01,00,00,00,04,00,00,00,01,00,00,00,24,\
+  02,00,00,07,00,00,00,01,00,00,00,64,00,00,00,0c,00,00,00,01,00,00,00,64,00,\
+  00,00,0a,00,00,00,01,00,00,00,7c,01,00,00,1c,00,00,00,01,00,00,00,64,00,00,\
+  00,1f,00,00,00,01,00,00,00,64,00,00,00,20,00,00,00,01,00,00,00,64,00,00,00,\
+  0b,00,00,00,00,00,00,00,64,00,00,00,62,00,00,00,00,00,00,00,64,00,00,00,09,\
+  00,00,00,00,00,00,00,64,00,00,00,08,00,00,00,00,00,00,00,64,00,00,00,5b,00,\
+  00,00,00,00,00,00,64,00,00,00,25,00,00,00,00,00,00,00,64,00,00,00,59,00,00,\
+  00,00,00,00,00,64,00,00,00
+"RootFolder"=hex:01,00,00,00,00,00,00,00,01,00,00,00,04,00,00,00,01,00,00,00,\
+  b6,01,00,00
+
+[Software\\7-Zip\\Options] 1731769536
+#time=1db3838fdcb5afc
+"CascadedMenu"=dword:00000000
+"ContextMenu"=dword:00000000
+"ElimDupExtract"=dword:00000001
+
+[Software\\Microsoft\\Internet Explorer\\Main] 1731769330
+#time=1db383882bc28be
+"Search Page"="https://www.google.com"
+"Start Page"="https://www.winehq.org"
+
+[Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl] 1731769328
+#time=1db383881d4714a
+
+[Software\\Microsoft\\Internet Explorer\\Settings] 1731769330
+#time=1db383882bc2986
+"Text Color"="0,0,0"
+
+[Software\\Microsoft\\Protected Storage System Provider] 1731769330
+#time=1db383882bddb00
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Applets\\Regedit] 1731769579
+#time=1db38391792af8a
+"LastKey"="\x30de\x30a4 \x30b3\x30f3\x30d4\x30e5\x30fc\x30bf\x30fc"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced] 1731769576
+#time=1db383915ea34aa
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\ComDlg32\\LastVisitedMRU] 1731769577
+#time=1db383916673d7e
+"a"=hex:72,00,65,00,67,00,65,00,64,00,69,00,74,00,2e,00,65,00,78,00,65,00,00,\
+  00,5a,00,3a,00,5c,00,68,00,6f,00,6d,00,65,00,5c,00,74,00,65,00,74,00,73,00,\
+  75,00,79,00,61,00,5c,00,41,00,70,00,70,00,6c,00,69,00,63,00,61,00,74,00,69,\
+  00,6f,00,6e,00,73,00,5c,00,77,00,69,00,6e,00,65,00,00,00
+"MRUList"="a"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1731769328
+#time=1db383882087cd8
+"Administrative Tools"="C:\\users\\tetsuya\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools"
+"AppData"="C:\\users\\tetsuya\\AppData\\Roaming"
+"Cache"="C:\\users\\tetsuya\\AppData\\Local\\Microsoft\\Windows\\INetCache"
+"Cookies"="C:\\users\\tetsuya\\AppData\\Local\\Microsoft\\Windows\\INetCookies"
+"Desktop"="C:\\users\\tetsuya\\Desktop"
+"Favorites"="C:\\users\\tetsuya\\Favorites"
+"Fonts"="C:\\windows\\Fonts"
+"History"="C:\\users\\tetsuya\\AppData\\Local\\Microsoft\\Windows\\History"
+"Local AppData"="C:\\users\\tetsuya\\AppData\\Local"
+"My Music"="C:\\users\\tetsuya\\Music"
+"My Pictures"="C:\\users\\tetsuya\\Pictures"
+"My Videos"="C:\\users\\tetsuya\\Videos"
+"NetHood"="C:\\users\\tetsuya\\AppData\\Roaming\\Microsoft\\Windows\\Network Shortcuts"
+"Personal"="C:\\users\\tetsuya\\Documents"
+"PrintHood"="C:\\users\\tetsuya\\AppData\\Roaming\\Microsoft\\Windows\\Printer Shortcuts"
+"Programs"="C:\\users\\tetsuya\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs"
+"Recent"="C:\\users\\tetsuya\\AppData\\Roaming\\Microsoft\\Windows\\Recent"
+"SendTo"="C:\\users\\tetsuya\\AppData\\Roaming\\Microsoft\\Windows\\SendTo"
+"Start Menu"="C:\\users\\tetsuya\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+"StartUp"="C:\\users\\tetsuya\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp"
+"Templates"="C:\\users\\tetsuya\\AppData\\Roaming\\Microsoft\\Windows\\Templates"
+"{374DE290-123F-4565-9164-39C4925E467B}"="C:\\users\\tetsuya\\Downloads"
+"{4C5C32FF-BB9D-43B0-B5B4-2D72E54EAAA4}"="C:\\users\\tetsuya\\Saved Games"
+"{56784854-C6CB-462B-8169-88E350ACB882}"="C:\\users\\tetsuya\\Contacts"
+"{7D1D3A04-DEBB-4115-95CF-2F29DA2920DA}"="C:\\users\\tetsuya\\Searches"
+"{A520A1A4-1780-4FF6-BD18-167343C5AF16}"="C:\\users\\tetsuya\\AppData\\LocalLow"
+"{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"="C:\\users\\tetsuya\\Links"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders] 1731769328
+#time=1db383882087a3a
+"Administrative Tools"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools"
+"AppData"=str(2):"%USERPROFILE%\\AppData\\Roaming"
+"Cache"=str(2):"%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\INetCache"
+"Cookies"=str(2):"%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\INetCookies"
+"Desktop"=str(2):"%USERPROFILE%\\Desktop"
+"Favorites"=str(2):"%USERPROFILE%\\Favorites"
+"Fonts"=str(2):"C:\\windows\\Fonts"
+"History"=str(2):"%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\History"
+"Local AppData"=str(2):"%USERPROFILE%\\AppData\\Local"
+"My Music"=str(2):"%USERPROFILE%\\Music"
+"My Pictures"=str(2):"%USERPROFILE%\\Pictures"
+"My Videos"=str(2):"%USERPROFILE%\\Videos"
+"NetHood"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Network Shortcuts"
+"Personal"=str(2):"%USERPROFILE%\\Documents"
+"PrintHood"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Printer Shortcuts"
+"Programs"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs"
+"Recent"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Recent"
+"SendTo"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\SendTo"
+"Start Menu"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+"StartUp"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp"
+"Templates"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Templates"
+"{374DE290-123F-4565-9164-39C4925E467B}"=str(2):"%USERPROFILE%\\Downloads"
+"{4C5C32FF-BB9D-43B0-B5B4-2D72E54EAAA4}"=str(2):"%USERPROFILE%\\Saved Games"
+"{56784854-C6CB-462B-8169-88E350ACB882}"=str(2):"%USERPROFILE%\\Contacts"
+"{7D1D3A04-DEBB-4115-95CF-2F29DA2920DA}"=str(2):"%USERPROFILE%\\Searches"
+"{A520A1A4-1780-4FF6-BD18-167343C5AF16}"=str(2):"%USERPROFILE%\\AppData\\LocalLow"
+"{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"=str(2):"%USERPROFILE%\\Links"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings] 1731769329
+#time=1db383882ab43fa
+"User Agent"="Mozilla/4.0 (compatible; MSIE 8.0; Win32)"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap] 1731769329
+#time=1db383882ab429c
+@=""
+"IntranetName"=dword:00000001
+"ProxyByPass"=dword:00000001
+"UNCAsIntranet"=dword:00000001
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Domains] 1731769329
+#time=1db383882ab418e
+@=""
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\ProtocolDefaults] 1731769329
+#time=1db383882ab4044
+@=""
+"@ivt"=dword:00000001
+"file"=dword:00000003
+"ftp"=dword:00000003
+"http"=dword:00000003
+"https"=dword:00000003
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Ranges] 1731769329
+#time=1db383882ab42d8
+@=""
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones] 1731769329
+#time=1db383882ac494e
+@=""
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\0] 1731769329
+#time=1db383882ab8324
+@=""
+"1001"=dword:00000000
+"1004"=dword:00000000
+"1200"=dword:00000000
+"1201"=dword:00000001
+"1400"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000000
+"1407"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1609"=dword:00000001
+"1800"=dword:00000000
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000000
+"1805"=dword:00000000
+"1A00"=dword:00000000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000000
+"1A05"=dword:00000000
+"1A06"=dword:00000000
+"1A10"=dword:00000000
+"1C00"=dword:00020000
+"1E05"=dword:00030000
+"CurrentLevel"=dword:00000000
+"Description"="Your computer"
+"DisplayName"="My Computer"
+"Flags"=dword:00000021
+"Icon"="explorer.exe#0100"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\1] 1731769329
+#time=1db383882abc424
+@=""
+"1001"=dword:00000001
+"1004"=dword:00000003
+"1200"=dword:00000000
+"1201"=dword:00000003
+"1400"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000001
+"1407"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1609"=dword:00000001
+"1800"=dword:00000001
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000001
+"1805"=dword:00000000
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000000
+"1A05"=dword:00000000
+"1A06"=dword:00000000
+"1A10"=dword:00000000
+"1C00"=dword:00020000
+"1E05"=dword:00020000
+"CurrentLevel"=dword:00010500
+"Description"="This zone contains all Web sites that are on your organization's intranet."
+"DisplayName"="Local intranet"
+"Flags"=dword:000000db
+"Icon"="shell32.dll#0018"
+"MinLevel"=dword:00010000
+"RecommendedLevel"=dword:00010500
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2] 1731769329
+#time=1db383882ac0524
+@=""
+"1001"=dword:00000000
+"1004"=dword:00000001
+"1200"=dword:00000000
+"1201"=dword:00000001
+"1400"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000000
+"1407"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1609"=dword:00000001
+"1800"=dword:00000000
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000000
+"1805"=dword:00000000
+"1A00"=dword:00000000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000000
+"1A05"=dword:00000000
+"1A06"=dword:00000000
+"1A10"=dword:00000000
+"1C00"=dword:00030000
+"1E05"=dword:00030000
+"CurrentLevel"=dword:00010000
+"Description"="This zone contains Web sites that you trust not to damage your computer or data."
+"DisplayName"="Trusted sites"
+"Flags"=dword:00000047
+"Icon"="inetcpl.cpl#00004480"
+"MinLevel"=dword:00010000
+"RecommendedLevel"=dword:00010000
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3] 1731769329
+#time=1db383882ac47fa
+@=""
+"1001"=dword:00000001
+"1004"=dword:00000003
+"1200"=dword:00000000
+"1201"=dword:00000003
+"1400"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000003
+"1407"=dword:00000000
+"1601"=dword:00000001
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1609"=dword:00000001
+"1800"=dword:00000001
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000001
+"1805"=dword:00000001
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000003
+"1A05"=dword:00000001
+"1A06"=dword:00000000
+"1A10"=dword:00000001
+"1C00"=dword:00010000
+"1E05"=dword:00020000
+"CurrentLevel"=dword:00011000
+"Description"="This zone contains all Web sites you haven't placed in other zones"
+"DisplayName"="Internet"
+"Flags"=dword:00000001
+"Icon"="inetcpl.cpl#001313"
+"MinLevel"=dword:00011000
+"RecommendedLevel"=dword:00011000
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4] 1731769329
+#time=1db383882ac8e04
+@=""
+"1001"=dword:00000003
+"1004"=dword:00000003
+"1200"=dword:00000003
+"1201"=dword:00000003
+"1400"=dword:00000003
+"1402"=dword:00000003
+"1405"=dword:00000003
+"1406"=dword:00000003
+"1407"=dword:00000003
+"1601"=dword:00000001
+"1604"=dword:00000001
+"1605"=dword:00000000
+"1606"=dword:00000003
+"1607"=dword:00000003
+"1608"=dword:00000003
+"1609"=dword:00000001
+"1800"=dword:00000003
+"1802"=dword:00000001
+"1803"=dword:00000003
+"1804"=dword:00000003
+"1805"=dword:00000001
+"1A00"=dword:00010000
+"1A02"=dword:00000003
+"1A03"=dword:00000003
+"1A04"=dword:00000003
+"1A05"=dword:00000003
+"1A06"=dword:00000003
+"1A10"=dword:00000003
+"1C00"=dword:00000000
+"1E05"=dword:00010000
+"CurrentLevel"=dword:00012000
+"Description"="This zone contains Web sites that could potentially damage your computer or data."
+"DisplayName"="Restricted sites"
+"Flags"=dword:00000003
+"Icon"="inetcpl.cpl#00004481"
+"MinLevel"=dword:00012000
+"RecommendedLevel"=dword:00012000
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Run] 1731769330
+#time=1db383882bd1df0
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\ThemeManager] 1731769330
+#time=1db383882df04d8
+"ColorName"="Blue"
+"DllName"="C:\\windows\\resources\\themes\\light\\light.msstyles"
+"FlatMenu"=dword:00000000
+"GradientCaption"=dword:00000001
+"IconTitleFont"=hex:f4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,\
+  00,00,00,00,01,00,00,00,22,4d,00,53,00,20,00,55,00,49,00,20,00,47,00,6f,00,\
+  74,00,68,00,69,00,63,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"LoadedBefore"="1"
+"NonClientMetrics"=hex:f8,01,00,00,01,00,00,00,10,00,00,00,10,00,00,00,12,00,\
+  00,00,12,00,00,00,f4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,bc,02,00,\
+  00,00,00,00,01,00,00,00,22,4d,00,53,00,20,00,55,00,49,00,20,00,47,00,6f,00,\
+  74,00,68,00,69,00,63,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,0f,00,\
+  00,00,0f,00,00,00,f4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,\
+  00,00,00,00,01,00,00,00,22,4d,00,53,00,20,00,55,00,49,00,20,00,47,00,6f,00,\
+  74,00,68,00,69,00,63,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,12,00,\
+  00,00,12,00,00,00,f4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,\
+  00,00,00,00,01,00,00,00,22,4d,00,53,00,20,00,55,00,49,00,20,00,47,00,6f,00,\
+  74,00,68,00,69,00,63,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,f4,ff,\
+  ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,00,00,00,01,00,00,00,\
+  22,4d,00,53,00,20,00,55,00,49,00,20,00,47,00,6f,00,74,00,68,00,69,00,63,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,f4,ff,ff,ff,00,00,00,00,00,00,\
+  00,00,00,00,00,00,90,01,00,00,00,00,00,01,00,00,00,22,4d,00,53,00,20,00,55,\
+  00,49,00,20,00,47,00,6f,00,74,00,68,00,69,00,63,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00
+"SizeName"="NormalSize"
+"ThemeActive"="1"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\ThemeManager\\Control Panel\\Colors] 1731769330
+#time=1db383882df01cc
+"ActiveBorder"="212 208 200"
+"ActiveTitle"="10 36 106"
+"AppWorkSpace"="128 128 128"
+"Background"="58 110 165"
+"ButtonAlternateFace"="181 181 181"
+"ButtonDkShadow"="64 64 64"
+"ButtonFace"="212 208 200"
+"ButtonHilight"="255 255 255"
+"ButtonLight"="212 208 200"
+"ButtonShadow"="128 128 128"
+"ButtonText"="0 0 0"
+"GradientActiveTitle"="166 202 240"
+"GradientInactiveTitle"="192 192 192"
+"GrayText"="128 128 128"
+"Hilight"="10 36 106"
+"HilightText"="255 255 255"
+"HotTrackingColor"="0 0 200"
+"InactiveBorder"="212 208 200"
+"InactiveTitle"="128 128 128"
+"InactiveTitleText"="212 208 200"
+"InfoText"="0 0 0"
+"InfoWindow"="255 255 225"
+"Menu"="212 208 200"
+"MenuBar"="212 208 200"
+"MenuHilight"="10 36 106"
+"MenuText"="0 0 0"
+"Scrollbar"="212 208 200"
+"TitleText"="255 255 255"
+"Window"="255 255 255"
+"WindowFrame"="0 0 0"
+"WindowText"="0 0 0"
+
+[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\ftp\\UserChoice] 1731769330
+#time=1db383882bdecf8
+"ProgId"="ftp"
+
+[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\http\\UserChoice] 1731769330
+#time=1db383882bdf09a
+"ProgId"="http"
+
+[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\https\\UserChoice] 1731769330
+#time=1db383882bdf46e
+"ProgId"="https"
+
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon] 1731769330
+#time=1db383882bd2048
+
+[Software\\Wine\\AppDefaults] 1731769327
+#time=1db3838812e5e54
+
+[Software\\Wine\\Debug] 1731769330
+#time=1db383882bd70f2
+"RelayExclude"="ntdll.RtlEnterCriticalSection;ntdll.RtlTryEnterCriticalSection;ntdll.RtlLeaveCriticalSection;kernel32.48;kernel32.49;kernel32.94;kernel32.95;kernel32.96;kernel32.97;kernel32.98;kernel32.TlsGetValue;kernel32.TlsSetValue;kernel32.FlsGetValue;kernel32.FlsSetValue;kernel32.SetLastError"
+"RelayFromExclude"="winex11.drv;winemac.drv;user32;gdi32;advapi32;kernel32"
+
+[Software\\Wine\\DllOverrides] 1731769330
+#time=1db383882c1634c
+"*winemenubuilder.exe"=""
+
+[Software\\Wine\\FileOpenAssociations] 1731769330
+#time=1db383882c1625c
+"Enable"="N"
+
+[Software\\Wine\\Fonts] 1731775370
+#time=1db38469335f3c4
+"Codepages"="932,932"
+"LogPixels"=dword:000000f0
+
+[Software\\Wine\\Fonts\\External Fonts] 1731775370
+#time=1db384693376bb4
+"@BIZ UDP\x30b4\x30b7\x30c3\x30af (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\BIZ-UDGothicR.ttc"
+"@BIZ UDP\x30b4\x30b7\x30c3\x30af Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\BIZ-UDGothicB.ttc"
+"@BIZ UDP\x660e\x671d Medium (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\BIZ-UDMinchoM.ttc"
+"@BIZ UD\x30b4\x30b7\x30c3\x30af (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\BIZ-UDGothicR.ttc"
+"@BIZ UD\x30b4\x30b7\x30c3\x30af Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\BIZ-UDGothicB.ttc"
+"@BIZ UD\x660e\x671d Medium (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\BIZ-UDMinchoM.ttc"
+"@Droid Sans Fallback (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansFallbackFull.ttf"
+"@FZShuTi (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\FZSTK.TTF"
+"@FZYaoTi (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\FZYTK.TTF"
+"@LiSu (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SIMLI.TTF"
+"@Meiryo UI (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\meiryo.ttc"
+"@Meiryo UI Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\meiryob.ttc"
+"@Meiryo UI Bold Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\meiryob.ttc"
+"@Meiryo UI Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\meiryo.ttc"
+"@Microsoft JhengHei (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msjh.ttc"
+"@Microsoft JhengHei Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msjhbd.ttc"
+"@Microsoft JhengHei Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msjhl.ttc"
+"@Microsoft JhengHei UI (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msjh.ttc"
+"@Microsoft JhengHei UI Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msjhbd.ttc"
+"@Microsoft JhengHei UI Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msjhl.ttc"
+"@Microsoft YaHei (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msyh.ttc"
+"@Microsoft YaHei Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msyhbd.ttc"
+"@Microsoft YaHei Boot (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msyhn_boot_EX.ttf"
+"@Microsoft YaHei Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msyhl.ttc"
+"@Microsoft YaHei UI (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msyh.ttc"
+"@Microsoft YaHei UI Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msyhbd.ttc"
+"@Microsoft YaHei UI Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msyhl.ttc"
+"@MingLiU-ExtB (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\mingliub.ttc"
+"@MingLiU_HKSCS-ExtB (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\mingliub.ttc"
+"@MS UI Gothic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msgothic.ttc"
+"@Noto Sans CJK HK (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-sans-cjk-vf-fonts\\NotoSansCJK-VF.ttc"
+"@Noto Sans CJK JP (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-sans-cjk-vf-fonts\\NotoSansCJK-VF.ttc"
+"@Noto Sans CJK KR (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-sans-cjk-vf-fonts\\NotoSansCJK-VF.ttc"
+"@Noto Sans CJK SC (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-sans-cjk-vf-fonts\\NotoSansCJK-VF.ttc"
+"@Noto Sans CJK TC (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-sans-cjk-vf-fonts\\NotoSansCJK-VF.ttc"
+"@Noto Sans Mono CJK HK (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-sans-mono-cjk-vf-fonts\\NotoSansMonoCJK-VF.ttc"
+"@Noto Sans Mono CJK JP (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-sans-mono-cjk-vf-fonts\\NotoSansMonoCJK-VF.ttc"
+"@Noto Sans Mono CJK KR (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-sans-mono-cjk-vf-fonts\\NotoSansMonoCJK-VF.ttc"
+"@Noto Sans Mono CJK SC (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-sans-mono-cjk-vf-fonts\\NotoSansMonoCJK-VF.ttc"
+"@Noto Sans Mono CJK TC (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-sans-mono-cjk-vf-fonts\\NotoSansMonoCJK-VF.ttc"
+"@Noto Serif CJK HK (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-serif-cjk-vf-fonts\\NotoSerifCJK-VF.ttc"
+"@Noto Serif CJK JP (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-serif-cjk-vf-fonts\\NotoSerifCJK-VF.ttc"
+"@Noto Serif CJK JP Black (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKjp-Black.otf"
+"@Noto Serif CJK JP Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKjp-Bold.otf"
+"@Noto Serif CJK JP ExtraLight (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKjp-ExtraLight.otf"
+"@Noto Serif CJK JP Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKjp-Light.otf"
+"@Noto Serif CJK JP Medium (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKjp-Medium.otf"
+"@Noto Serif CJK JP SemiBold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKjp-SemiBold.otf"
+"@Noto Serif CJK KR (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-serif-cjk-vf-fonts\\NotoSerifCJK-VF.ttc"
+"@Noto Serif CJK SC (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-serif-cjk-vf-fonts\\NotoSerifCJK-VF.ttc"
+"@Noto Serif CJK SC Black (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKsc-Black.otf"
+"@Noto Serif CJK SC Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKsc-Bold.otf"
+"@Noto Serif CJK SC ExtraLight (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKsc-ExtraLight.otf"
+"@Noto Serif CJK SC Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKsc-Light.otf"
+"@Noto Serif CJK SC Medium (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKsc-Medium.otf"
+"@Noto Serif CJK SC SemiBold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKsc-SemiBold.otf"
+"@Noto Serif CJK TC (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-serif-cjk-vf-fonts\\NotoSerifCJK-VF.ttc"
+"@Noto Serif JP (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifJP-Regular.otf"
+"@Noto Serif JP Black (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifJP-Black.otf"
+"@Noto Serif JP Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifJP-Bold.otf"
+"@Noto Serif JP ExtraLight (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifJP-ExtraLight.otf"
+"@Noto Serif JP Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifJP-Light.otf"
+"@Noto Serif JP Medium (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifJP-Medium.otf"
+"@Noto Serif JP SemiBold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifJP-SemiBold.otf"
+"@Noto Serif SC (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifSC-Regular.otf"
+"@Noto Serif SC Black (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifSC-Black.otf"
+"@Noto Serif SC Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifSC-Bold.otf"
+"@Noto Serif SC ExtraLight (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifSC-ExtraLight.otf"
+"@Noto Serif SC Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifSC-Light.otf"
+"@Noto Serif SC Medium (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifSC-Medium.otf"
+"@Noto Serif SC SemiBold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifSC-SemiBold.otf"
+"@NSimSun (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\fake_simsun.ttc"
+"@PMingLiU-ExtB (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\mingliub.ttc"
+"@SimSun (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\fake_simsun.ttc"
+"@SimSun-ExtB (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\simsunb.ttf"
+"@Source Han Mono HC (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono HC Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono HC Bold Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono HC EL (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono HC EL Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono HC H (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono HC H Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono HC Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono HC L (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono HC L Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono HC M (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono HC M Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono HC N (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono HC N Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono K (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono K Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono K Bold Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono K EL (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono K EL Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono K H (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono K H Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono K Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono K L (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono K L Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono K M (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono K M Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono K N (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono K N Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono SC (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono SC Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono SC Bold Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono SC EL (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono SC EL Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono SC H (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono SC H Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono SC Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono SC L (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono SC L Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono SC M (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono SC M Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono SC N (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono SC N Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono TC (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono TC Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono TC Bold Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono TC EL (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono TC EL Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono TC H (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono TC H Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono TC Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono TC L (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono TC L Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono TC M (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono TC M Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono TC N (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Mono TC N Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@Source Han Sans CN (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanSansCN-Regular.otf"
+"@Source Han Sans CN Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanSansCN-Bold.otf"
+"@Source Han Sans CN ExtraLight (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanSansCN-ExtraLight.otf"
+"@Source Han Sans CN Heavy (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanSansCN-Heavy.otf"
+"@Source Han Sans CN Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanSansCN-Light.otf"
+"@Source Han Sans CN Medium (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanSansCN-Medium.otf"
+"@Source Han Sans CN Normal (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanSansCN-Normal.otf"
+"@STCaiyun (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\STCAIYUN.TTF"
+"@STFangsong (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\STFANGSO.TTF"
+"@STHupo (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\STHUPO.TTF"
+"@STKaiti (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\STKAITI.TTF"
+"@STLiti (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\STLITI.TTF"
+"@STSong (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\STSONG.TTF"
+"@STXihei (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\STXIHEI.TTF"
+"@STXingkai (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\STXINGKA.TTF"
+"@STXinwei (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\STXINWEI.TTF"
+"@STZhongsong (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\STZHONGS.TTF"
+"@UD \x30c7\x30b8\x30bf\x30eb \x6559\x79d1\x66f8\x4f53 N-B (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\UDDigiKyokashoN-B.ttc"
+"@UD \x30c7\x30b8\x30bf\x30eb \x6559\x79d1\x66f8\x4f53 N-R (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\UDDigiKyokashoN-R.ttc"
+"@UD \x30c7\x30b8\x30bf\x30eb \x6559\x79d1\x66f8\x4f53 NK-B (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\UDDigiKyokashoN-B.ttc"
+"@UD \x30c7\x30b8\x30bf\x30eb \x6559\x79d1\x66f8\x4f53 NK-R (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\UDDigiKyokashoN-R.ttc"
+"@UD \x30c7\x30b8\x30bf\x30eb \x6559\x79d1\x66f8\x4f53 NP-B (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\UDDigiKyokashoN-B.ttc"
+"@UD \x30c7\x30b8\x30bf\x30eb \x6559\x79d1\x66f8\x4f53 NP-R (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\UDDigiKyokashoN-R.ttc"
+"@WenQuanYi Micro Hei (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\wqy-microhei.ttc"
+"@WenQuanYi Micro Hei Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\wqy-microhei-lite.ttc"
+"@WenQuanYi Micro Hei Mono (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\wqy-microhei.ttc"
+"@WenQuanYi Micro Hei Mono Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\wqy-microhei-lite.ttc"
+"@WenQuanYi Zen Hei (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\wqy-zenhei.ttc"
+"@WenQuanYi Zen Hei Mono (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\wqy-zenhei.ttc"
+"@WenQuanYi Zen Hei Sharp (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\wqy-zenhei.ttc"
+"@YaHei Consolas Hybrid (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\YaHei.Consolas.1.12.ttf"
+"@Yahei Mono (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\yahei_mono_0.ttf"
+"@YouYuan (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SIMYOU.TTF"
+"@\x30e1\x30a4\x30ea\x30aa (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\meiryo.ttc"
+"@\x30e1\x30a4\x30ea\x30aa \x30a4\x30bf\x30ea\x30c3\x30af (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\meiryo.ttc"
+"@\x30e1\x30a4\x30ea\x30aa \x30dc\x30fc\x30eb\x30c9 (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\meiryob.ttc"
+"@\x30e1\x30a4\x30ea\x30aa \x30dc\x30fc\x30eb\x30c9 \x30a4\x30bf\x30ea\x30c3\x30af (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\meiryob.ttc"
+"@\x6e38\x660e\x671d Demibold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\yumindb.ttf"
+"@\x6e38\x660e\x671d Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\yuminl.ttf"
+"@\x6e38\x660e\x671d Regular (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\yumin.ttf"
+"@\x6e90\x30ce\x7b49\x5e45 (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@\x6e90\x30ce\x7b49\x5e45 Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@\x6e90\x30ce\x7b49\x5e45 Bold Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@\x6e90\x30ce\x7b49\x5e45 EL (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@\x6e90\x30ce\x7b49\x5e45 EL Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@\x6e90\x30ce\x7b49\x5e45 H (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@\x6e90\x30ce\x7b49\x5e45 H Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@\x6e90\x30ce\x7b49\x5e45 Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@\x6e90\x30ce\x7b49\x5e45 L (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@\x6e90\x30ce\x7b49\x5e45 L Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@\x6e90\x30ce\x7b49\x5e45 M (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@\x6e90\x30ce\x7b49\x5e45 M Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@\x6e90\x30ce\x7b49\x5e45 N (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@\x6e90\x30ce\x7b49\x5e45 N Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"@\x6e90\x30ce\x89d2\x30b4\x30b7\x30c3\x30af HW (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanSansHW-Regular.otf"
+"@\x6e90\x30ce\x89d2\x30b4\x30b7\x30c3\x30af HW Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanSansHW-Bold.otf"
+"@\x82b1\x5712\x660e\x671dA Regular (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\HanaMinA.ttf"
+"@\x82b1\x5712\x660e\x671dB Regular (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\1HanaMinB.ttf"
+"@\xff2d\xff33 \x30b4\x30b7\x30c3\x30af (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msgothic.ttc"
+"@\xff2d\xff33 \x660e\x671d (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msmincho.ttc"
+"@\xff2d\xff33 \xff30\x30b4\x30b7\x30c3\x30af (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msgothic.ttc"
+"@\xff2d\xff33 \xff30\x660e\x671d (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msmincho.ttc"
+"Andale Mono (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\andalemo.ttf"
+"Bitstream Vera Sans (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\Vera.ttf"
+"Bitstream Vera Sans Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\VeraBd.ttf"
+"Bitstream Vera Sans Bold Oblique (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\VeraBI.ttf"
+"Bitstream Vera Sans Mono (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\VeraMono.ttf"
+"Bitstream Vera Sans Mono Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\VeraMoBd.ttf"
+"Bitstream Vera Sans Mono Bold Oblique (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\VeraMoBI.ttf"
+"Bitstream Vera Sans Mono Oblique (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\VeraMoIt.ttf"
+"Bitstream Vera Sans Oblique (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\VeraIt.ttf"
+"Bitstream Vera Serif (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\VeraSe.ttf"
+"Bitstream Vera Serif Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\VeraSeBd.ttf"
+"BIZ UDP\x30b4\x30b7\x30c3\x30af (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\BIZ-UDGothicR.ttc"
+"BIZ UDP\x30b4\x30b7\x30c3\x30af Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\BIZ-UDGothicB.ttc"
+"BIZ UDP\x660e\x671d Medium (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\BIZ-UDMinchoM.ttc"
+"BIZ UD\x30b4\x30b7\x30c3\x30af (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\BIZ-UDGothicR.ttc"
+"BIZ UD\x30b4\x30b7\x30c3\x30af Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\BIZ-UDGothicB.ttc"
+"BIZ UD\x660e\x671d Medium (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\BIZ-UDMinchoM.ttc"
+"C059-BdIta (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\C059-BdIta.otf"
+"C059-Bold (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\C059-Bold.otf"
+"C059-Italic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\C059-Italic.otf"
+"C059-Roman (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\C059-Roman.otf"
+"Cantarell Bold (TrueType)"="Z:\\usr\\share\\fonts\\abattis-cantarell-fonts\\Cantarell-Bold.otf"
+"Cantarell Extra Bold (TrueType)"="Z:\\usr\\share\\fonts\\abattis-cantarell-fonts\\Cantarell-ExtraBold.otf"
+"Cantarell Light (TrueType)"="Z:\\usr\\share\\fonts\\abattis-cantarell-fonts\\Cantarell-Light.otf"
+"Cantarell Regular (TrueType)"="Z:\\usr\\share\\fonts\\abattis-cantarell-fonts\\Cantarell-Regular.otf"
+"Cantarell Thin (TrueType)"="Z:\\usr\\share\\fonts\\abattis-cantarell-fonts\\Cantarell-Thin.otf"
+"D050000L (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\D050000L.otf"
+"DejaVuMathTeXGyre-Regular (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\DejaVuMathTeXGyre.ttf"
+"Droid Arabic Kufi (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidKufi-Regular.ttf"
+"Droid Arabic Kufi Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidKufi-Bold.ttf"
+"Droid Sans (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSans.ttf"
+"Droid Sans Armenian (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansArmenian.ttf"
+"Droid Sans Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSans-Bold.ttf"
+"Droid Sans Devanagari (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansDevanagari-Regular.ttf"
+"Droid Sans Ethiopic (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansEthiopic-Regular.ttf"
+"Droid Sans Ethiopic Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansEthiopic-Bold.ttf"
+"Droid Sans Fallback (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansFallbackFull.ttf"
+"Droid Sans Georgian (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansGeorgian.ttf"
+"Droid Sans Hebrew (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansHebrew-Regular.ttf"
+"Droid Sans Hebrew Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansHebrew-Bold.ttf"
+"Droid Sans Japanese (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansJapanese.ttf"
+"Droid Sans Tamil (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansTamil-Regular.ttf"
+"Droid Sans Tamil Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansTamil-Bold.ttf"
+"Droid Sans Thai (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansThai.ttf"
+"feather (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\Icomoon-Feather.ttf"
+"FZShuTi (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\FZSTK.TTF"
+"FZYaoTi (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\FZYTK.TTF"
+"Grape Nuts Regular (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\GrapeNuts-Regular.ttf"
+"HoloLens MDL2 Assets (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\holomdl2.ttf"
+"Iosevka Nerd Font Complete (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\Iosevka-Nerd-Font-Complete.ttf"
+"JetBrains Mono Regular Nerd Font Complete (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\JetBrains-Mono-Nerd-Font-Complete.ttf"
+"Jomolhari (TrueType)"="Z:\\usr\\share\\fonts\\jomolhari-fonts\\Jomolhari-alpha3c-0605331.ttf"
+"Liberation Mono (TrueType)"="Z:\\usr\\share\\fonts\\liberation-mono-fonts\\LiberationMono-Regular.ttf"
+"Liberation Mono Bold (TrueType)"="Z:\\usr\\share\\fonts\\liberation-mono-fonts\\LiberationMono-Bold.ttf"
+"Liberation Mono Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\liberation-mono-fonts\\LiberationMono-BoldItalic.ttf"
+"Liberation Mono Italic (TrueType)"="Z:\\usr\\share\\fonts\\liberation-mono-fonts\\LiberationMono-Italic.ttf"
+"Liberation Sans (TrueType)"="Z:\\usr\\share\\fonts\\liberation-sans-fonts\\LiberationSans-Regular.ttf"
+"Liberation Sans Bold (TrueType)"="Z:\\usr\\share\\fonts\\liberation-sans-fonts\\LiberationSans-Bold.ttf"
+"Liberation Sans Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\liberation-sans-fonts\\LiberationSans-BoldItalic.ttf"
+"Liberation Sans Italic (TrueType)"="Z:\\usr\\share\\fonts\\liberation-sans-fonts\\LiberationSans-Italic.ttf"
+"Liberation Serif (TrueType)"="Z:\\usr\\share\\fonts\\liberation-serif-fonts\\LiberationSerif-Regular.ttf"
+"Liberation Serif Bold (TrueType)"="Z:\\usr\\share\\fonts\\liberation-serif-fonts\\LiberationSerif-Bold.ttf"
+"Liberation Serif Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\liberation-serif-fonts\\LiberationSerif-BoldItalic.ttf"
+"Liberation Serif Italic (TrueType)"="Z:\\usr\\share\\fonts\\liberation-serif-fonts\\LiberationSerif-Italic.ttf"
+"LiSu (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SIMLI.TTF"
+"Madan2 (TrueType)"="Z:\\usr\\share\\fonts\\madan-fonts\\madan.ttf"
+"Meiryo UI (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\meiryo.ttc"
+"Meiryo UI Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\meiryob.ttc"
+"Meiryo UI Bold Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\meiryob.ttc"
+"Meiryo UI Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\meiryo.ttc"
+"Microsoft JhengHei (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msjh.ttc"
+"Microsoft JhengHei Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msjhbd.ttc"
+"Microsoft JhengHei Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msjhl.ttc"
+"Microsoft JhengHei UI (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msjh.ttc"
+"Microsoft JhengHei UI Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msjhbd.ttc"
+"Microsoft JhengHei UI Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msjhl.ttc"
+"Microsoft New Tai Lue (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\ntailu.ttf"
+"Microsoft New Tai Lue Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\ntailub.ttf"
+"Microsoft PhagsPa (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\phagspa.ttf"
+"Microsoft PhagsPa Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\phagspab.ttf"
+"Microsoft YaHei (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msyh.ttc"
+"Microsoft YaHei Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msyhbd.ttc"
+"Microsoft YaHei Boot (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msyhn_boot_EX.ttf"
+"Microsoft YaHei Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msyhl.ttc"
+"Microsoft YaHei UI (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msyh.ttc"
+"Microsoft YaHei UI Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msyhbd.ttc"
+"Microsoft YaHei UI Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msyhl.ttc"
+"Microsoft Yi Baiti (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msyi.ttf"
+"MingLiU-ExtB (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\mingliub.ttc"
+"MingLiU_HKSCS-ExtB (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\mingliub.ttc"
+"Mongolian Baiti (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\monbaiti.ttf"
+"Montserrat Black (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-Black.otf"
+"Montserrat Black Italic (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-BlackItalic.otf"
+"Montserrat Bold (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-Bold.otf"
+"Montserrat Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-BoldItalic.otf"
+"Montserrat ExtraBold (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-ExtraBold.otf"
+"Montserrat ExtraBold Italic (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-ExtraBoldItalic.otf"
+"Montserrat ExtraLight (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-ExtraLight.otf"
+"Montserrat ExtraLight Italic (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-ExtraLightItalic.otf"
+"Montserrat Italic (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-Italic.otf"
+"Montserrat Light (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-Light.otf"
+"Montserrat Light Italic (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-LightItalic.otf"
+"Montserrat Medium (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-Medium.otf"
+"Montserrat Medium Italic (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-MediumItalic.otf"
+"Montserrat Regular (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-Regular.otf"
+"Montserrat SemiBold (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-SemiBold.otf"
+"Montserrat SemiBold Italic (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-SemiBoldItalic.otf"
+"Montserrat Thin (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-Thin.otf"
+"Montserrat Thin Italic (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-ThinItalic.otf"
+"MS UI Gothic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msgothic.ttc"
+"MV Boli (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\mvboli.ttf"
+"Myanmar Text (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\mmrtext.ttf"
+"Myanmar Text Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\mmrtextb.ttf"
+"NimbusMonoPS-Bold (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusMonoPS-Bold.otf"
+"NimbusMonoPS-BoldItalic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusMonoPS-BoldItalic.otf"
+"NimbusMonoPS-Italic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusMonoPS-Italic.otf"
+"NimbusMonoPS-Regular (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusMonoPS-Regular.otf"
+"NimbusRoman-Bold (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusRoman-Bold.otf"
+"NimbusRoman-BoldItalic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusRoman-BoldItalic.otf"
+"NimbusRoman-Italic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusRoman-Italic.otf"
+"NimbusRoman-Regular (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusRoman-Regular.otf"
+"NimbusSans-Bold (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusSans-Bold.otf"
+"NimbusSans-BoldItalic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusSans-BoldItalic.otf"
+"NimbusSans-Italic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusSans-Italic.otf"
+"NimbusSans-Regular (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusSans-Regular.otf"
+"NimbusSansNarrow-Bold (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusSansNarrow-Bold.otf"
+"NimbusSansNarrow-BoldOblique (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusSansNarrow-BoldOblique.otf"
+"NimbusSansNarrow-Oblique (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusSansNarrow-Oblique.otf"
+"NimbusSansNarrow-Regular (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusSansNarrow-Regular.otf"
+"Nirmala UI (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\Nirmala.ttf"
+"Nirmala UI Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NirmalaB.ttf"
+"Nirmala UI Semilight (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NirmalaS.ttf"
+"Noto Naskh Arabic Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoNaskhArabic[wght].ttf"
+"Noto Sans Arabic Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansArabic[wght].ttf"
+"Noto Sans Armenian Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansArmenian[wght].ttf"
+"Noto Sans Bengali Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansBengali[wght].ttf"
+"Noto Sans Canadian Aboriginal Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansCanadianAboriginal[wght].ttf"
+"Noto Sans Cherokee Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansCherokee[wght].ttf"
+"Noto Sans CJK HK (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-sans-cjk-vf-fonts\\NotoSansCJK-VF.ttc"
+"Noto Sans CJK JP (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-sans-cjk-vf-fonts\\NotoSansCJK-VF.ttc"
+"Noto Sans CJK KR (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-sans-cjk-vf-fonts\\NotoSansCJK-VF.ttc"
+"Noto Sans CJK SC (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-sans-cjk-vf-fonts\\NotoSansCJK-VF.ttc"
+"Noto Sans CJK TC (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-sans-cjk-vf-fonts\\NotoSansCJK-VF.ttc"
+"Noto Sans Devanagari Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansDevanagari[wght].ttf"
+"Noto Sans Ethiopic Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansEthiopic[wght].ttf"
+"Noto Sans Georgian Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansGeorgian[wght].ttf"
+"Noto Sans Gujarati Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansGujarati[wght].ttf"
+"Noto Sans Gurmukhi Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansGurmukhi[wght].ttf"
+"Noto Sans Hebrew Light (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansHebrew[wght].ttf"
+"Noto Sans Italic (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSans-Italic[wght].ttf"
+"Noto Sans Kannada Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansKannada[wght].ttf"
+"Noto Sans Khmer Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansKhmer[wght].ttf"
+"Noto Sans Lao Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansLao[wght].ttf"
+"Noto Sans Math Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansMath-Regular.ttf"
+"Noto Sans Meetei Mayek Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansMeeteiMayek[wght].ttf"
+"Noto Sans Mono CJK HK (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-sans-mono-cjk-vf-fonts\\NotoSansMonoCJK-VF.ttc"
+"Noto Sans Mono CJK JP (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-sans-mono-cjk-vf-fonts\\NotoSansMonoCJK-VF.ttc"
+"Noto Sans Mono CJK KR (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-sans-mono-cjk-vf-fonts\\NotoSansMonoCJK-VF.ttc"
+"Noto Sans Mono CJK SC (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-sans-mono-cjk-vf-fonts\\NotoSansMonoCJK-VF.ttc"
+"Noto Sans Mono CJK TC (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-sans-mono-cjk-vf-fonts\\NotoSansMonoCJK-VF.ttc"
+"Noto Sans Mono Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansMono[wght].ttf"
+"Noto Sans Ol Chiki Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansOlChiki[wght].ttf"
+"Noto Sans Oriya Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansOriya[wght].ttf"
+"Noto Sans Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSans[wght].ttf"
+"Noto Sans Sinhala Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansSinhala[wght].ttf"
+"Noto Sans Symbols 2 Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansSymbols2-Regular.ttf"
+"Noto Sans Symbols Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansSymbols[wght].ttf"
+"Noto Sans Tamil Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansTamil[wght].ttf"
+"Noto Sans Telugu Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansTelugu[wght].ttf"
+"Noto Sans Thaana Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansThaana[wght].ttf"
+"Noto Sans Thai Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansThai[wght].ttf"
+"Noto Serif Armenian Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSerifArmenian[wght].ttf"
+"Noto Serif Bengali Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSerifBengali[wght].ttf"
+"Noto Serif CJK HK (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-serif-cjk-vf-fonts\\NotoSerifCJK-VF.ttc"
+"Noto Serif CJK JP (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-serif-cjk-vf-fonts\\NotoSerifCJK-VF.ttc"
+"Noto Serif CJK JP Black (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKjp-Black.otf"
+"Noto Serif CJK JP Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKjp-Bold.otf"
+"Noto Serif CJK JP ExtraLight (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKjp-ExtraLight.otf"
+"Noto Serif CJK JP Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKjp-Light.otf"
+"Noto Serif CJK JP Medium (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKjp-Medium.otf"
+"Noto Serif CJK JP SemiBold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKjp-SemiBold.otf"
+"Noto Serif CJK KR (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-serif-cjk-vf-fonts\\NotoSerifCJK-VF.ttc"
+"Noto Serif CJK SC (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-serif-cjk-vf-fonts\\NotoSerifCJK-VF.ttc"
+"Noto Serif CJK SC Black (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKsc-Black.otf"
+"Noto Serif CJK SC Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKsc-Bold.otf"
+"Noto Serif CJK SC ExtraLight (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKsc-ExtraLight.otf"
+"Noto Serif CJK SC Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKsc-Light.otf"
+"Noto Serif CJK SC Medium (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKsc-Medium.otf"
+"Noto Serif CJK SC SemiBold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifCJKsc-SemiBold.otf"
+"Noto Serif CJK TC (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-serif-cjk-vf-fonts\\NotoSerifCJK-VF.ttc"
+"Noto Serif Devanagari Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSerifDevanagari[wght].ttf"
+"Noto Serif Ethiopic Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSerifEthiopic[wght].ttf"
+"Noto Serif Georgian Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSerifGeorgian[wght].ttf"
+"Noto Serif Gujarati Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSerifGujarati[wght].ttf"
+"Noto Serif Gurmukhi Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSerifGurmukhi[wght].ttf"
+"Noto Serif Hebrew Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSerifHebrew[wght].ttf"
+"Noto Serif Italic (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSerif-Italic[wght].ttf"
+"Noto Serif JP (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifJP-Regular.otf"
+"Noto Serif JP Black (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifJP-Black.otf"
+"Noto Serif JP Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifJP-Bold.otf"
+"Noto Serif JP ExtraLight (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifJP-ExtraLight.otf"
+"Noto Serif JP Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifJP-Light.otf"
+"Noto Serif JP Medium (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifJP-Medium.otf"
+"Noto Serif JP SemiBold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifJP-SemiBold.otf"
+"Noto Serif Kannada Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSerifKannada[wght].ttf"
+"Noto Serif Khmer Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSerifKhmer[wght].ttf"
+"Noto Serif Lao Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSerifLao[wght].ttf"
+"Noto Serif Oriya Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSerifOriya[wght].ttf"
+"Noto Serif Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSerif[wght].ttf"
+"Noto Serif SC (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifSC-Regular.otf"
+"Noto Serif SC Black (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifSC-Black.otf"
+"Noto Serif SC Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifSC-Bold.otf"
+"Noto Serif SC ExtraLight (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifSC-ExtraLight.otf"
+"Noto Serif SC Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifSC-Light.otf"
+"Noto Serif SC Medium (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifSC-Medium.otf"
+"Noto Serif SC SemiBold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\NotoSerifSC-SemiBold.otf"
+"Noto Serif Sinhala Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSerifSinhala[wght].ttf"
+"Noto Serif Tamil Italic (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSerifTamil-Italic[wght].ttf"
+"Noto Serif Tamil Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSerifTamil[wght].ttf"
+"Noto Serif Telugu Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSerifTelugu[wght].ttf"
+"Noto Serif Thai Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSerifThai[wght].ttf"
+"NSimSun (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\fake_simsun.ttc"
+"Open Sans (TrueType)"="Z:\\usr\\share\\fonts\\open-sans\\OpenSans-Regular.ttf"
+"Open Sans Bold (TrueType)"="Z:\\usr\\share\\fonts\\open-sans\\OpenSans-Bold.ttf"
+"Open Sans Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\open-sans\\OpenSans-BoldItalic.ttf"
+"Open Sans Extrabold (TrueType)"="Z:\\usr\\share\\fonts\\open-sans\\OpenSans-ExtraBold.ttf"
+"Open Sans Extrabold Italic (TrueType)"="Z:\\usr\\share\\fonts\\open-sans\\OpenSans-ExtraBoldItalic.ttf"
+"Open Sans Italic (TrueType)"="Z:\\usr\\share\\fonts\\open-sans\\OpenSans-Italic.ttf"
+"Open Sans Light (TrueType)"="Z:\\usr\\share\\fonts\\open-sans\\OpenSans-Light.ttf"
+"Open Sans Light Italic (TrueType)"="Z:\\usr\\share\\fonts\\open-sans\\OpenSans-LightItalic.ttf"
+"Open Sans Semibold (TrueType)"="Z:\\usr\\share\\fonts\\open-sans\\OpenSans-Semibold.ttf"
+"Open Sans Semibold Italic (TrueType)"="Z:\\usr\\share\\fonts\\open-sans\\OpenSans-SemiboldItalic.ttf"
+"P052-Bold (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\P052-Bold.otf"
+"P052-BoldItalic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\P052-BoldItalic.otf"
+"P052-Italic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\P052-Italic.otf"
+"P052-Roman (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\P052-Roman.otf"
+"Padauk (TrueType)"="Z:\\usr\\share\\fonts\\sil-padauk-fonts\\Padauk-Regular.ttf"
+"Padauk Bold (TrueType)"="Z:\\usr\\share\\fonts\\sil-padauk-fonts\\Padauk-Bold.ttf"
+"PakType Naskh Basic (TrueType)"="Z:\\usr\\share\\fonts\\paktype-naskh-basic-fonts\\PakTypeNaskhBasic.ttf"
+"Palatino Linotype (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\pala.ttf"
+"Palatino Linotype Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\palab.ttf"
+"Palatino Linotype Bold Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\palabi.ttf"
+"Palatino Linotype Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\palai.ttf"
+"PMingLiU-ExtB (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\mingliub.ttc"
+"RIT Meera New Regular (TrueType)"="Z:\\usr\\share\\fonts\\rit-meera-new-fonts\\RIT-MeeraNew.otf"
+"RIT Rachana (TrueType)"="Z:\\usr\\share\\fonts\\rit-rachana-fonts\\RIT-Rachana-Regular.otf"
+"RIT Rachana Bold (TrueType)"="Z:\\usr\\share\\fonts\\rit-rachana-fonts\\RIT-Rachana-Bold.otf"
+"RIT Rachana Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\rit-rachana-fonts\\RIT-Rachana-BoldItalic.otf"
+"RIT Rachana Italic (TrueType)"="Z:\\usr\\share\\fonts\\rit-rachana-fonts\\RIT-Rachana-Italic.otf"
+"Roboto Black (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\Roboto-Black.ttf"
+"Roboto Black Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\Roboto-BlackItalic.ttf"
+"Roboto Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\Roboto-Bold.ttf"
+"Roboto Bold Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\Roboto-BoldItalic.ttf"
+"Roboto Condensed Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\RobotoCondensed-Bold.ttf"
+"Roboto Condensed Bold Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\RobotoCondensed-BoldItalic.ttf"
+"Roboto Condensed Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\RobotoCondensed-Italic.ttf"
+"Roboto Condensed Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\RobotoCondensed-Light.ttf"
+"Roboto Condensed Light Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\RobotoCondensed-LightItalic.ttf"
+"Roboto Condensed Regular (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\RobotoCondensed-Regular.ttf"
+"Roboto Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\Roboto-Italic.ttf"
+"Roboto Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\Roboto-Light.ttf"
+"Roboto Light Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\Roboto-LightItalic.ttf"
+"Roboto Medium (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\Roboto-Medium.ttf"
+"Roboto Medium Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\Roboto-MediumItalic.ttf"
+"Roboto Regular (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\Roboto-Regular.ttf"
+"Roboto Thin (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\Roboto-Thin.ttf"
+"Roboto Thin Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\Roboto-ThinItalic.ttf"
+"Sans Serif Collection (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SansSerifCollection.ttf"
+"Segoe Fluent Icons (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SegoeIcons.ttf"
+"Segoe MDL2 Assets (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\segmdl2.ttf"
+"Segoe Print (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\segoepr.ttf"
+"Segoe Print Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\segoeprb.ttf"
+"Segoe Script (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\segoesc.ttf"
+"Segoe Script Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\segoescb.ttf"
+"Segoe UI (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\segoeui.ttf"
+"Segoe UI Black (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\seguibl.ttf"
+"Segoe UI Black Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\seguibli.ttf"
+"Segoe UI Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\segoeuib.ttf"
+"Segoe UI Bold Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\segoeuiz.ttf"
+"Segoe UI Emoji (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\seguiemj.ttf"
+"Segoe UI Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\segoeuii.ttf"
+"Segoe UI Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\segoeuil.ttf"
+"Segoe UI Semilight (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\segoeuisl.ttf"
+"Segoe UI Variable (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SegUIVar.ttf"
+"SimSun (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\fake_simsun.ttc"
+"SimSun-ExtB (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\simsunb.ttf"
+"Sitka Text (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SitkaVF.ttf"
+"Sitka Text Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SitkaVF-Italic.ttf"
+"Source Code Pro (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro-fonts\\SourceCodePro-Regular.otf"
+"Source Code Pro Black (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro-fonts\\SourceCodePro-Black.otf"
+"Source Code Pro Black Italic (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro-fonts\\SourceCodePro-BlackIt.otf"
+"Source Code Pro Bold (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro-fonts\\SourceCodePro-Bold.otf"
+"Source Code Pro Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro-fonts\\SourceCodePro-BoldIt.otf"
+"Source Code Pro ExtraLight (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro-fonts\\SourceCodePro-ExtraLight.otf"
+"Source Code Pro ExtraLight Italic (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro-fonts\\SourceCodePro-ExtraLightIt.otf"
+"Source Code Pro Italic (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro-fonts\\SourceCodePro-It.otf"
+"Source Code Pro Light (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro-fonts\\SourceCodePro-Light.otf"
+"Source Code Pro Light Italic (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro-fonts\\SourceCodePro-LightIt.otf"
+"Source Code Pro Medium (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro-fonts\\SourceCodePro-Medium.otf"
+"Source Code Pro Medium Italic (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro-fonts\\SourceCodePro-MediumIt.otf"
+"Source Code Pro Semibold (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro-fonts\\SourceCodePro-Semibold.otf"
+"Source Code Pro Semibold Italic (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro-fonts\\SourceCodePro-SemiboldIt.otf"
+"Source Han Mono HC (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono HC Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono HC Bold Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono HC EL (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono HC EL Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono HC H (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono HC H Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono HC Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono HC L (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono HC L Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono HC M (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono HC M Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono HC N (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono HC N Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono K (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono K Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono K Bold Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono K EL (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono K EL Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono K H (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono K H Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono K Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono K L (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono K L Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono K M (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono K M Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono K N (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono K N Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono SC (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono SC Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono SC Bold Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono SC EL (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono SC EL Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono SC H (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono SC H Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono SC Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono SC L (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono SC L Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono SC M (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono SC M Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono SC N (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono SC N Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono TC (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono TC Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono TC Bold Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono TC EL (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono TC EL Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono TC H (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono TC H Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono TC Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono TC L (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono TC L Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono TC M (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono TC M Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono TC N (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Mono TC N Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"Source Han Sans CN (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanSansCN-Regular.otf"
+"Source Han Sans CN Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanSansCN-Bold.otf"
+"Source Han Sans CN ExtraLight (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanSansCN-ExtraLight.otf"
+"Source Han Sans CN Heavy (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanSansCN-Heavy.otf"
+"Source Han Sans CN Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanSansCN-Light.otf"
+"Source Han Sans CN Medium (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanSansCN-Medium.otf"
+"Source Han Sans CN Normal (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanSansCN-Normal.otf"
+"Standard Symbols PS (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\StandardSymbolsPS.otf"
+"STCaiyun (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\STCAIYUN.TTF"
+"STFangsong (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\STFANGSO.TTF"
+"STHupo (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\STHUPO.TTF"
+"STIX Two Math Regular (TrueType)"="Z:\\usr\\share\\fonts\\stix-fonts\\STIXTwoMath-Regular.otf"
+"STIX Two Text Bold (TrueType)"="Z:\\usr\\share\\fonts\\stix-fonts\\STIXTwoText-Bold.otf"
+"STIX Two Text Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\stix-fonts\\STIXTwoText-BoldItalic.otf"
+"STIX Two Text Italic (TrueType)"="Z:\\usr\\share\\fonts\\stix-fonts\\STIXTwoText-Italic.otf"
+"STIX Two Text Medium (TrueType)"="Z:\\usr\\share\\fonts\\stix-fonts\\STIXTwoText-Medium.otf"
+"STIX Two Text Medium Italic (TrueType)"="Z:\\usr\\share\\fonts\\stix-fonts\\STIXTwoText-MediumItalic.otf"
+"STIX Two Text Regular (TrueType)"="Z:\\usr\\share\\fonts\\stix-fonts\\STIXTwoText-Regular.otf"
+"STIX Two Text SemiBold (TrueType)"="Z:\\usr\\share\\fonts\\stix-fonts\\STIXTwoText-SemiBold.otf"
+"STIX Two Text SemiBold Italic (TrueType)"="Z:\\usr\\share\\fonts\\stix-fonts\\STIXTwoText-SemiBoldItalic.otf"
+"STKaiti (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\STKAITI.TTF"
+"STLiti (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\STLITI.TTF"
+"STSong (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\STSONG.TTF"
+"STXihei (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\STXIHEI.TTF"
+"STXingkai (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\STXINGKA.TTF"
+"STXinwei (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\STXINWEI.TTF"
+"STZhongsong (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\STZHONGS.TTF"
+"Symbola (TrueType)"="Z:\\usr\\share\\fonts\\gdouros-symbola\\Symbola.ttf"
+"UD \x30c7\x30b8\x30bf\x30eb \x6559\x79d1\x66f8\x4f53 N-B (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\UDDigiKyokashoN-B.ttc"
+"UD \x30c7\x30b8\x30bf\x30eb \x6559\x79d1\x66f8\x4f53 N-R (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\UDDigiKyokashoN-R.ttc"
+"UD \x30c7\x30b8\x30bf\x30eb \x6559\x79d1\x66f8\x4f53 NK-B (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\UDDigiKyokashoN-B.ttc"
+"UD \x30c7\x30b8\x30bf\x30eb \x6559\x79d1\x66f8\x4f53 NK-R (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\UDDigiKyokashoN-R.ttc"
+"UD \x30c7\x30b8\x30bf\x30eb \x6559\x79d1\x66f8\x4f53 NP-B (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\UDDigiKyokashoN-B.ttc"
+"UD \x30c7\x30b8\x30bf\x30eb \x6559\x79d1\x66f8\x4f53 NP-R (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\UDDigiKyokashoN-R.ttc"
+"URWBookman-Demi (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\URWBookman-Demi.otf"
+"URWBookman-DemiItalic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\URWBookman-DemiItalic.otf"
+"URWBookman-Light (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\URWBookman-Light.otf"
+"URWBookman-LightItalic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\URWBookman-LightItalic.otf"
+"URWGothic-Book (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\URWGothic-Book.otf"
+"URWGothic-BookOblique (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\URWGothic-BookOblique.otf"
+"URWGothic-Demi (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\URWGothic-Demi.otf"
+"URWGothic-DemiOblique (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\URWGothic-DemiOblique.otf"
+"Vazirmatn Regular (TrueType)"="Z:\\usr\\share\\fonts\\vazirmatn-vf-fonts\\Vazirmatn[wght].ttf"
+"WenQuanYi Micro Hei (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\wqy-microhei.ttc"
+"WenQuanYi Micro Hei Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\wqy-microhei-lite.ttc"
+"WenQuanYi Micro Hei Mono (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\wqy-microhei.ttc"
+"WenQuanYi Micro Hei Mono Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\wqy-microhei-lite.ttc"
+"WenQuanYi Zen Hei (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\wqy-zenhei.ttc"
+"WenQuanYi Zen Hei Mono (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\wqy-zenhei.ttc"
+"WenQuanYi Zen Hei Sharp (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\wqy-zenhei.ttc"
+"YaHei Consolas Hybrid (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\YaHei.Consolas.1.12.ttf"
+"Yahei Mono (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\yahei_mono_0.ttf"
+"YouYuan (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SIMYOU.TTF"
+"Z003-MediumItalic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\Z003-MediumItalic.otf"
+"\x30e1\x30a4\x30ea\x30aa (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\meiryo.ttc"
+"\x30e1\x30a4\x30ea\x30aa \x30a4\x30bf\x30ea\x30c3\x30af (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\meiryo.ttc"
+"\x30e1\x30a4\x30ea\x30aa \x30dc\x30fc\x30eb\x30c9 (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\meiryob.ttc"
+"\x30e1\x30a4\x30ea\x30aa \x30dc\x30fc\x30eb\x30c9 \x30a4\x30bf\x30ea\x30c3\x30af (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\meiryob.ttc"
+"\x6e38\x660e\x671d Demibold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\yumindb.ttf"
+"\x6e38\x660e\x671d Light (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\yuminl.ttf"
+"\x6e38\x660e\x671d Regular (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\yumin.ttf"
+"\x6e90\x30ce\x7b49\x5e45 (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"\x6e90\x30ce\x7b49\x5e45 Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"\x6e90\x30ce\x7b49\x5e45 Bold Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"\x6e90\x30ce\x7b49\x5e45 EL (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"\x6e90\x30ce\x7b49\x5e45 EL Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"\x6e90\x30ce\x7b49\x5e45 H (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"\x6e90\x30ce\x7b49\x5e45 H Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"\x6e90\x30ce\x7b49\x5e45 Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"\x6e90\x30ce\x7b49\x5e45 L (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"\x6e90\x30ce\x7b49\x5e45 L Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"\x6e90\x30ce\x7b49\x5e45 M (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"\x6e90\x30ce\x7b49\x5e45 M Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"\x6e90\x30ce\x7b49\x5e45 N (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"\x6e90\x30ce\x7b49\x5e45 N Italic (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanMono.ttc"
+"\x6e90\x30ce\x89d2\x30b4\x30b7\x30c3\x30af HW (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanSansHW-Regular.otf"
+"\x6e90\x30ce\x89d2\x30b4\x30b7\x30c3\x30af HW Bold (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\SourceHanSansHW-Bold.otf"
+"\x82b1\x5712\x660e\x671dA Regular (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\HanaMinA.ttf"
+"\x82b1\x5712\x660e\x671dB Regular (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\1HanaMinB.ttf"
+"\xff2d\xff33 \x30b4\x30b7\x30c3\x30af (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msgothic.ttc"
+"\xff2d\xff33 \x660e\x671d (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msmincho.ttc"
+"\xff2d\xff33 \xff30\x30b4\x30b7\x30c3\x30af (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msgothic.ttc"
+"\xff2d\xff33 \xff30\x660e\x671d (TrueType)"="Z:\\var\\home\\tetsuya\\.fonts\\msmincho.ttc"
+
+[Software\\Wine\\Fonts\\Replacements] 1731769330
+#time=1db383882c17bb6
+"Batang"="Noto Sans CJK KR"
+"BatangChe"="Noto Sans CJK KR"
+"Dotum"="Noto Sans CJK KR"
+"DotumChe"="Noto Sans CJK KR"
+"Gulim"="Noto Sans CJK KR"
+"GulimChe"="Noto Sans CJK KR"
+"Microsoft JhengHei"="Noto Sans CJK TC"
+"Microsoft JhengHei Bold"="Noto Sans CJK TC Black"
+"Microsoft JhengHei Light"="Noto Sans CJK TC Light"
+"Microsoft JhengHei UI"="Noto Sans CJK TC"
+"Microsoft JhengHei UI Bold"="Noto Sans CJK TC Black"
+"Microsoft JhengHei UI Light"="Noto Sans CJK TC Light"
+"Microsoft YaHei"="Noto Sans CJK SC"
+"Microsoft YaHei Bold"="Noto Sans CJK SC Black"
+"Microsoft YaHei Light"="Noto Sans CJK SC Light"
+"Microsoft YaHei UI"="Noto Sans CJK SC"
+"Microsoft YaHei UI Bold"="Noto Sans CJK SC Black"
+"Microsoft YaHei UI Light"="Noto Sans CJK SC Light"
+"MingLiU"="Noto Sans CJK TC"
+"MingLiU-ExtB"="Noto Sans CJK TC"
+"MingLiU_HKSCS"="Noto Sans CJK HK"
+"MingLiU_HKSCS-ExtB"="Noto Sans CJK HK"
+"MS Gothic"="Noto Sans CJK JP"
+"MS PGothic"="Noto Sans CJK JP"
+"MS UI Gothic"="Noto Sans CJK JP"
+"NSimSun"="Noto Sans CJK SC"
+"PMingLiU"="Noto Sans CJK TC"
+"PMingLiU-ExtB"="Noto Sans CJK TC"
+"SimHei"="Noto Sans CJK SC"
+"SimSun"="Noto Sans CJK SC"
+"SimSun-ExtB"="Noto Sans CJK SC"
+"Yu Gothic Bold"="Noto Sans CJK JP Black"
+"Yu Gothic Light"="Noto Sans CJK JP Light"
+"Yu Gothic Medium"="Noto Sans CJK JP Medium"
+"Yu Gothic Regular"="Noto Sans CJK JP"
+"Yu Gothic UI Bold"="Noto Sans CJK JP Black"
+"Yu Gothic UI Light"="Noto Sans CJK JP Light"
+"Yu Gothic UI Medium"="Noto Sans CJK JP Medium"
+"Yu Gothic UI Regular"="Noto Sans CJK JP"
+"Yu Gothic UI Semilight"="Noto Sans CJK JP DemiLight"
+
+[Volatile Environment] 1731769332
+#time=1db383884454b84
+"APPDATA"="C:\\users\\tetsuya\\AppData\\Roaming"
+"CLIENTNAME"="Console"
+"HOMEDRIVE"="C:"
+"HOMEPATH"="\\users\\tetsuya"
+"HOMESHARE"=""
+"LOCALAPPDATA"="C:\\users\\tetsuya\\AppData\\Local"
+"LOGONSERVER"="\\\\FEDORA"
+"SESSIONNAME"="Console"
+"USERDOMAIN"="FEDORA"
+"USERNAME"="tetsuya"
+"USERPROFILE"="C:\\users\\tetsuya"
