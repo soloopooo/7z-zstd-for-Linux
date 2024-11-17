@@ -118,9 +118,8 @@ echo "Wine configuration directory: ${WINEPREFIX}"
 
 if [ $# -eq 0 ]; then
     # If no arguments are provided, run the program directly
-    cd "${HERE}/exe"  # Switch to the exe directory
-    echo "Running with Wine: ${WINE_APPIMAGE}" "$EXE"
-    exec "${WINE_APPIMAGE}" "$EXE" 2>/dev/null
+    echo "Running ${APP_NAME}..."
+    exec "${WINE_APPIMAGE}" "$EXE"
 else
     # If arguments are provided, pass them to Wine
     if [ -f "$1" ]; then
@@ -129,6 +128,7 @@ else
         DIRPATH="$(dirname "${FILEPATH}")"
         FILENAME="$(basename "${FILEPATH}")"
         cd "${DIRPATH}"
+        echo "Running ${APP_NAME} with ${FILEPATH}..."
         exec "${WINE_APPIMAGE}" "${EXE}" "${FILENAME}" 2>/dev/null
     else
         # If the first argument is not a file path, pass it to Wine
