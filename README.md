@@ -115,7 +115,7 @@ Wine でパッケージ化された Windows 7z プログラムで、Linux 環境
 ## Copyright
 
 Copyright (c) 2024 Cheyan <iamcheyan@gmail.com> https://iamcheyan.com/  
-2025, soloopooo: https://soloop.ooo
+2025, soloopooo: https://soloop.ooo  
 7-Zip is Copyright (c) 1999-2025 Igor Pavlov  
-Wine is Copyright (c) 1993-2025 Wine Developers
-This project is using Wine 10.0 and 7Zip-zs 25.01.
+Wine is Copyright (c) 1993-2025 Wine Developers  
+This project is using Wine 10.0 and 7Zip-zs 25.01.  
