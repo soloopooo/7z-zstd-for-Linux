@@ -1,5 +1,5 @@
-# 7-Zip AppImage for Linux
-7-Zip AppImage for Linux is a portable package of 7-Zip file archiver running on Wine.
+# 7-Zip-ZS AppImage for Linux
+7-Zip-ZS AppImage for Linux is a portable package of 7-Zip file archiver running on Wine.
 
 ![7z GUI Interface](img/image.png)
 
@@ -7,9 +7,13 @@
 
 [Download the latest version from here](https://github.com/iamcheyan/7z-for-Linux/releases/tag/7z)
 
+# Important
+
+*If you are using X11 environment, please uncomment [AppRun:115](AppRun).*
+
 ## English
 
-This is a Windows 7z program packaged with Wine for Linux environments. It provides both command-line interface and GUI tools. The main purpose is to solve character encoding issues when extracting Windows-created archives on Linux systems.
+This is a Windows 7z-ZSTD program packaged with Wine for Linux environments. It provides both command-line interface and GUI tools. The main purpose is to solve character encoding issues when extracting Windows-created archives on Linux systems.
 
 ### Installation & Usage
 
@@ -58,7 +62,7 @@ The program is packaged with wine and can be configured using the following comm
 
 ## Japanese
 
-7-Zip AppImage for Linux は、Wine 上で動作する 7-Zip ファイルアーカイバのポータブルパッケージです。
+7-Zip-ZS AppImage for Linux は、Wine 上で動作する 7-Zip ファイルアーカイバのポータブルパッケージです。
 
 Wine でパッケージ化された Windows 7z プログラムで、Linux 環境用です。コマンドラインとGUI の両方のインターフェースを提供します。Windows で作成された圧縮ファイルを Linux で解凍する際の文字化けの問題を解決するために開発されました。
 
@@ -84,7 +88,7 @@ Wine でパッケージ化された Windows 7z プログラムで、Linux 環境
 
 ## Chinese
 
-7-Zip AppImage for Linux 是一个基于 Wine 运行的 7-Zip 文件压缩程序的便携包。
+7-Zip-ZS AppImage for Linux 是一个基于 Wine 运行的 7-Zip-ZS 文件压缩程序的便携包。
 
 使用 Wine 打包的 Windows 7z 程序，适用于 Linux 环境。同时提供命令行和图形界面两种使用方式。解决 Windows 下创建的压缩包在 Linux 系统解压时的[中文乱码问题](https://superuser.com/questions/554108/extracting-a-zip-file-with-japanese-characters-in-the-archive-s-filenames)。
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-APP_NAME="7-Zip"
+APP_NAME="7-Zip-ZS"
 APP_NAME_DIR="wine_${APP_NAME}"
 
 # Get the absolute path of the script's directory
@@ -87,8 +87,8 @@ fi
 
 # Define the path of the Wine AppImage
 if [ ! -f "${HERE}/wine-stable-latest.AppImage" ]; then
-    echo "Download wine-stable-latest.AppImage from https://github.com/mmtrt/WINE_AppImage/releases/download/continuous-stable/wine-stable_9.0-x86_64.AppImage..."
-    wget -c "https://github.com/mmtrt/WINE_AppImage/releases/download/continuous-stable/wine-stable_9.0-x86_64.AppImage" -O "${HERE}/wine-stable-latest.AppImage"
+    echo "Download wine-stable-latest.AppImage from https://github.com/mmtrt/WINE_AppImage/releases/download/continuous-stable/wine-stable_10.0-x86_64.AppImage..."
+    wget -c "https://github.com/mmtrt/WINE_AppImage/releases/download/continuous-stable/wine-stable_10.0-x86_64.AppImage" -O "${HERE}/wine-stable-latest.AppImage"
     chmod +x "${HERE}/wine-stable-latest.AppImage"
 fi
 WINE_APPIMAGE="${HERE}/wine-stable-latest.AppImage"
@@ -111,7 +111,8 @@ export WINEPREFIX="${USER_WINEPREFIX}"
 # Improve compatibility with environment variables
 export WINEARCH=win64 
 export WINEDLLOVERRIDES="mscoree,mshtml=d"
-export DISPLAY=:0.0
+# Set the DISPLAY variable if needed (uncomment the next line if you are in X11):
+#export DISPLAY=:0.0 
 
 # Print the configuration directory information
 echo "Wine configuration directory: ${WINEPREFIX}"

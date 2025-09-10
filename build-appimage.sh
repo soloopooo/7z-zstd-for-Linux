@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 定义全局变量
-APP_NAME="7-Zip"
+APP_NAME="7-Zip-ZS"
 APP_NAME_DIR="wine_${APP_NAME}"
 WMClass="7zfm.exe"
 
